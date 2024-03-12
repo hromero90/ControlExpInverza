@@ -204,6 +204,7 @@ class EmpleadoController extends Controller
         // }
 
         $empleado->estado = $request->get('estado');
+        $empleado->expediente = $request->get('expediente');
 
         //Documentos del Empleado
         $empleado->doc_carnet_Bloqueo = $request->get('doc_carnet_Bloqueo');

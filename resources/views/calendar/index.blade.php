@@ -1,6 +1,6 @@
 @extends('adminlte::page')
-
 @section('title', 'Calendario Documentos Pendientes')
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
     <script src='https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js'></script>
 
     <!--SweetAlert-->
@@ -30,6 +29,7 @@
 </head>
 
 <body>
+
     {{-- <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Launch demo modal
@@ -63,13 +63,13 @@
                 <h3 class="text-center mt-3">Calendario de Documentos Pendientes</h3>
                 <div class="col-md-11 offset-1 mt-3 mb-5">
                     <div id="calendar">
-
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+@endsection
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
@@ -212,5 +212,6 @@
         
     </script>
 </body>
-@endsection
+
+
 </html>
