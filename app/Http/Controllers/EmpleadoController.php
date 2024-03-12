@@ -63,6 +63,7 @@ class EmpleadoController extends Controller
         $empleados->nomina = $request->get('nomina');
         $empleados->tipo_Contrato = $request->get('tipo_Contrato');
         $empleados->estado = $request->get('estado');
+        $empleados->expediente = $request->get('expediente');
 
         //Documentos del Empleado
         $empleados->doc_carnet_Bloqueo = $request->get('doc_carnet_Bloqueo');

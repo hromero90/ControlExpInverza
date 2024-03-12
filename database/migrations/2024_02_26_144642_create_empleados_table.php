@@ -26,6 +26,7 @@ return new class extends Migration
             $table->string('tipo_Contrato');
             $table->string('foto_Perfil')->nullable();
             $table->string('estado');
+            $table->string('expediente');
             //Documentaciones
             $table->string('doc_carnet_Bloqueo');
             $table->string('doc_carnet_Inverza');

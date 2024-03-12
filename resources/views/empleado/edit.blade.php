@@ -155,6 +155,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col">
+                                <label for="expediente">{{'Numero de Expediente'}}</label>
+                                    <input type="text" class="form-control mb-3" name="expediente"
+                                        id="expediente" value="{{$empleado->expediente}}">
+                            </div>
                         </div>
                     </div>
                 </div>

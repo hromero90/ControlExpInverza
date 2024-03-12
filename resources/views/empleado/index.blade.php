@@ -21,6 +21,7 @@
             <th scope="col">Celular</th>
             <th scope="col">Estado</th>
             <th scope="col">Nomina</th>
+            <th scope="col">No. Expediente</th>
             <th scope="col">Acciones</th>
         </tr>
     </thead>
@@ -43,6 +44,7 @@
             <td>{{$empleado->nombres}}</td>
             <td>{{$empleado->apellidos}}</td>
             <td>{{$empleado->celular}}</td>
+
             <td id="resp{{ $empleado->id }}">
                 @if($empleado->estado == 'Activo')
                 <button type="button" class="btn btn-sm btn-success"><i class="fas fa-check"></i> Activo</button>
@@ -51,6 +53,9 @@
                 @endif</td>
 
             <td>{{$empleado->nomina}}</td>
+
+            <td>{{$empleado->expediente}}</td>
+
             <td>
                 <form action="{{ route ('empleados.destroy', $empleado->id) }}" method="POST">
                     <a href="/empleados/{{$empleado->id}}/edit" class="btn btn-warning btn-sm"> <i class="fas fa-pen"></i> </a>

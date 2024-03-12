@@ -133,6 +133,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col">
+                                <label for="expediente">{{'Numero de Expediente'}}</label>
+                                    <input type="text" class="form-control mb-3" name="expediente"
+                                        id="expediente">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1858,7 +1863,7 @@
 
     </div>
     <a href="/empleados" class="btn btn-danger mt-4 mb-2" tabindex="5">Cancelar</a>
-    <button type="submit" class="btn btn-primary mt-4 mb-2" tabindex="4">Guardar</button>
+    <button type="submit" class="btn btn-primary mt-4 mb-2" tabindex="4">Guardar</button>    
 </form>
 @stop
 
