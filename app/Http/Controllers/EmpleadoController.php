@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\Storage;
 use App\Http\Controllers\User;
 use App\Models\User as ModelsUser;
 use Illuminate\Support\Str;
+use App\Exports\EmpleadoExportsCollection;
+use App\Exports\EmpleadoExportsView;
+
+use MaatwebsiteExcel\Facades\Excel;
+
 
 
 class EmpleadoController extends Controller
@@ -35,6 +40,16 @@ class EmpleadoController extends Controller
         //
         return view('empleado.create');
     }
+
+    // public function collection()
+    // {
+    //     return Excel::download(new EmpleadoExportsCollection,'empleadosInverza.xlsx');
+    // }
+
+    // public function view()
+    // {
+    //     return Excel::download(new EmpleadoExportsView,'empleadosInverza.xlsx');
+    // }
 
     /**
      * Store a newly created resource in storage.

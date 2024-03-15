@@ -10,6 +10,9 @@
 
 <a href="empleados/create" class="btn btn-primary">Crear</a>
 
+{{-- <a href="{{route('empleados.excel')}}" class="btn btn-success">Excel</a> --}}
+
+
 <table id="empleados" class="table table-striped table-bordered mt-2 shadow-lg" style="width:100%">
     <thead class="bg-primary text-white">
         <tr>
