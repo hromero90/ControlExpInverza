@@ -8,7 +8,10 @@
 
 @section('content')
 
-<a href="empleados/create" class="btn btn-primary">Crear</a>
+<a href="empleados/create" class="btn btn-primary mr-2">Crear</a>
+<a href="calendar/index" class="btn btn-warning mr-2">Calendario</a>
+<a href="empleado/export" class="btn btn-success">Exportar</a>
+
 
 {{-- <a href="{{route('empleados.excel')}}" class="btn btn-success">Excel</a> --}}
 

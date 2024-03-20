@@ -1,10 +1,13 @@
 <?php
 
+use App\Exports\EmpleadoExport;
+use App\Exports\UsersExport;
 use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\EmpleadoController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventController;
 use App\Models\Empleado;
+use Maatwebsite\Excel\Facades\Excel;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,11 +34,14 @@ Route::patch('calendar/update/{id}', [CalendarController::class,  'update'])->na
 Route::delete('calendar/destroy/{id}', [CalendarController::class,  'destroy'])->name('calendar.destroy');
 
 //Rutas para Excel
+Route::get('users/export', function () {
+    return Excel::download(new UsersExport, 'users.xlsx');
+})->name('users.export');
 
-// Route::get('empleados/excel', [EmpleadoController::class, 'excel'])->name('empleados.excel');
-// Route::get('empleados/csv', [EmpleadoController::class, 'csv'])->name('empleados.csv');
-// Route::get('empleados/pdf', [EmpleadoController::class, 'csv'])->name('empleados.pdf');
-// Route::get('empleados/html', [EmpleadoController::class, 'html'])->name('empleados.html');
+Route::get('empleado/export', function () {
+    return Excel::download(new EmpleadoExport, 'empleado.xlsx');
+})->name('empleado.export');
+
 
 
 Route::middleware([

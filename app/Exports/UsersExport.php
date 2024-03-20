@@ -2,16 +2,16 @@
 
 namespace App\Exports;
 
-use App\Models\Empleado;
+use App\Models\User;
 use Maatwebsite\Excel\Concerns\FromCollection;
 
-class EmpleadoExportsView implements FromCollection
+class UsersExport implements FromCollection
 {
     /**
     * @return \Illuminate\Support\Collection
     */
     public function collection()
     {
-        return Empleado::all();
+        return User::all();
     }
 }

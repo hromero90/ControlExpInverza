@@ -8,10 +8,7 @@ use Illuminate\Support\Facades\Storage;
 use App\Http\Controllers\User;
 use App\Models\User as ModelsUser;
 use Illuminate\Support\Str;
-use App\Exports\EmpleadoExportsCollection;
-use App\Exports\EmpleadoExportsView;
-
-use MaatwebsiteExcel\Facades\Excel;
+use Maatwebsite\Excel\Facades\Excel;
 
 
 
@@ -32,6 +29,9 @@ class EmpleadoController extends Controller
         return view('empleado.index')->with('empleados',$empleados);
     }
 
+    /**
+     * Función para exportar el Excel
+     */
     /**
      * Show the form for creating a new resource.
      */
