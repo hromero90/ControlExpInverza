@@ -318,13 +318,13 @@ return [
             // 'label'       => 'INVERZA',
             'label_color' => 'success',
         ],
-        [
-            'text'        => 'Calendario',
-            'url'         => 'calendar/index',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 'Pendientes',
-            'label_color' => 'warning',
-        ],
+        // [
+        //     'text'        => 'Calendario',
+        //     'url'         => 'calendar/index',
+        //     'icon'        => 'far fa-fw fa-file',
+        //     'label'       => 'Pendientes',
+        //     'label_color' => 'warning',
+        // ],
         ['header' => 'Configuracion de la cuenta'],
 
         [

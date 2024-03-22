@@ -6,6 +6,7 @@ use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\EmpleadoController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\ScheduleController;
 use App\Models\Empleado;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -26,12 +27,25 @@ Route::get('/', function () {
 
 Route::resource('empleados','App\Http\Controllers\EmpleadoController');
 
+// Start Full Calender=================================================================
+Route::get('fullcalender', [ScheduleController::class, 'index']);
+Route::get('/events', [ScheduleController::class, 'getEvents']);
+Route::get('/schedule/delete/{id}', [ScheduleController::class, 'deleteEvent']);
+Route::post('/schedule/{id}', [ScheduleController::class, 'update']);
+Route::post('/schedule/{id}/resize', [ScheduleController::class, 'resize']);
+Route::get('/events/search', [ScheduleController::class, 'search']);
+
+Route::view('add-schedule', 'schedule.add');
+Route::post('create-schedule', [ScheduleController::class, 'create']);
+// End Full Calender=================================================================
+
+
 
 //Rutas para el calendario
-Route::get('calendar/index', [CalendarController::class, 'index'])->name('calendar.index');
-Route::post('calendar', [CalendarController::class,  'store'])->name('calendar.store');
-Route::patch('calendar/update/{id}', [CalendarController::class,  'update'])->name('calendar.update');
-Route::delete('calendar/destroy/{id}', [CalendarController::class,  'destroy'])->name('calendar.destroy');
+// Route::get('calendar/index', [CalendarController::class, 'index'])->name('calendar.index');
+// Route::post('calendar', [CalendarController::class,  'store'])->name('calendar.store');
+// Route::patch('calendar/update/{id}', [CalendarController::class,  'update'])->name('calendar.update');
+// Route::delete('calendar/destroy/{id}', [CalendarController::class,  'destroy'])->name('calendar.destroy');
 
 //Rutas para Excel
 Route::get('users/export', function () {
@@ -41,7 +55,6 @@ Route::get('users/export', function () {
 Route::get('empleado/export', function () {
     return Excel::download(new EmpleadoExport, 'empleado.xlsx');
 })->name('empleado.export');
-
 
 
 Route::middleware([
