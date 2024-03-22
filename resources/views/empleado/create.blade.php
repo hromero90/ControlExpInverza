@@ -95,6 +95,26 @@
                                 </div>
                             </div>
                             <div class="col">
+                                <label for="tipo_Contrato" class="form-label">Tipo de Contrato</label>
+                                <div class="col">
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="tipo_Contrato" value="Determinado"
+                                            >
+                                            <label class="form-check-label" for="gridRadios1">
+                                                Determinado
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="tipo_Contrato" value="Indeterminado">
+                                            <label class="form-check-label" for="gridRadios2">
+                                                Indeterminado
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- <div class="col">
                                 <div class="col">
                                     <label for="tipo_Contrato">{{'Tipo de Contrato'}}</label>
                                     <select class="form-select mb-3" name="tipo_Contrato" id="tipo_Contrato">
@@ -103,7 +123,7 @@
                                         <option id="tipo_Contrato" value="Indeterminado">Indeterminado</option>
                                     </select>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="row align-items-end">
                             <!--Foto de Perfil-->

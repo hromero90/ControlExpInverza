@@ -101,17 +101,37 @@
                                 </div>
                             </div>
                             <div class="col">
+                                <label for="tipo_Contrato" class="form-label">Tipo de Contrato</label>
+                                <div class="col">
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="tipo_Contrato" value="Determinado"
+                                                {!! $empleado->tipo_Contrato === 'Determinado' ? 'checked' : '' !!}>
+                                            <label class="form-check-label" for="gridRadios1">
+                                                Determinado
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="tipo_Contrato" value="Indeterminado"
+                                                {!! $empleado->tipo_Contrato === 'Indeterminado' ? 'checked' : '' !!}>
+                                            <label class="form-check-label" for="gridRadios2">
+                                                Indeterminado
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{-- <div class="col">
                                 <div class="col">
                                     <label for="tipo_Contrato">{{'Tipo de Contrato'}}</label>
                                     <select class="form-select mb-3" name="tipo_Contrato" id="tipo_Contrato">
-                                        {{-- <option>Seleccione una opcion</option> --}}
                                         <option id="tipo_Contrato" value="{{$empleado->tipo_Contrato}}">Determinado
                                         </option>
                                         <option id="tipo_Contrato" value="{{$empleado->tipo_Contrato}}">Indeterminado
                                         </option>
                                     </select>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="row align-items-end">
                             <div class="col">

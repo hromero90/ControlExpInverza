@@ -1,6 +1,11 @@
 {{-- @extends('layouts.app')
 
 @section('head') --}}
+<!--SweetAlert-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!-- SweetAlert JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
     <style>
         form {
             width: 100%;
@@ -28,6 +33,7 @@
             color: white;
         }
     </style>
+    
 {{-- @endsection
 @section('content') --}}
 <h3 class="mt-3 text-center">Ingresar Nuevo Evento</h3>
@@ -51,8 +57,22 @@
         <input type="color" id="color" name="color" />
 
        
-        <input type="submit" value="Guardar" class="btn btn-success mb-2" />
+        <input id="btnGuardar" type="submit" value="Guardar" class="btn btn-success mb-2" />
         <a href="/empleados" class="btn btn-warning">Inicio</a>
         <a href="fullcalender" class="btn btn-danger">Cancelar</a>
     </form>
+
+    <script>
+        // Obtén una referencia al botón
+        var boton = document.getElementById('btnGuardar');
+        
+        // Agrega un evento de clic al botón
+        boton.addEventListener('click', function() {
+            // Muestra un SweetAlert al hacer clic en el botón
+            Swal.fire(
+                "¡Operación exitosa!", "La información ha sido agregada correctamente.", "success"
+            );
+        });
+    </script>
+    
 {{-- @endsection --}}

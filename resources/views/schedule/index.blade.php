@@ -30,7 +30,7 @@
                     <button id="exportButton" class="btn btn-success">{{__('Exportar Calendario')}}</button>
                 </div>
                 <div class="btn-group mb-3 mr-2" role="group" aria-label="Calendar Actions">
-                    <a href="{{ URL('add-schedule') }}" class="btn btn-success">{{__('Nuevo Evento')}}</a>
+                    <a href="{{ URL('add-schedule') }}" class="btn btn-info">{{__('Nuevo Evento')}}</a>
                 </div>
                 <div class="btn-group mb-3" role="group" aria-label="Calendar Actions">
                     <a href="{{ URL('/empleados') }}" class="btn btn-warning">{{__('Inicio')}}</a>
@@ -74,6 +74,7 @@
             // Deleting The Event
             eventContent: function(info) {
                 var eventTitle = info.event.title;
+                
                 var eventElement = document.createElement('div');
                 eventElement.innerHTML = '<span style="cursor: pointer;">❌</span> ' + eventTitle;
 
