@@ -13,6 +13,6 @@ class ExportController extends Controller
     public function export(){
 
         $empleados = Empleado::all();
-        return Excel::download(new EmpleadoExport($empleados),'empleados.xlsx');
+        return Excel::download(new EmpleadoExport,'empleados.xlsx');
     }
 }

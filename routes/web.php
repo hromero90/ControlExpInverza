@@ -48,9 +48,9 @@ Route::post('create-schedule', [ScheduleController::class, 'create']);
 // Route::delete('calendar/destroy/{id}', [CalendarController::class,  'destroy'])->name('calendar.destroy');
 
 //Rutas para Excel
-Route::get('users/export', function () {
-    return Excel::download(new UsersExport, 'users.xlsx');
-})->name('users.export');
+// Route::get('users/export', function () {
+//     return Excel::download(new UsersExport, 'users.xlsx');
+// })->name('users.export');
 
 Route::get('empleado/export', function () {
     return Excel::download(new EmpleadoExport, 'empleado.xlsx');
