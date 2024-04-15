@@ -114,16 +114,7 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="col">
-                                <div class="col">
-                                    <label for="tipo_Contrato">{{'Tipo de Contrato'}}</label>
-                                    <select class="form-select mb-3" name="tipo_Contrato" id="tipo_Contrato">
-                                        <option selected disabled>Seleccione una opcion</option>
-                                        <option id="tipo_Contrato" value="Determinado">Determinado</option>
-                                        <option id="tipo_Contrato" value="Indeterminado">Indeterminado</option>
-                                    </select>
-                                </div>
-                            </div> --}}
+                            
                         </div>
                         <div class="row align-items-end">
                             <!--Foto de Perfil-->
@@ -196,12 +187,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_carnet_Bloqueo">{{'Carnet de Bloqueo'}}</label>
-                                <select class="form-select mb-3" name="doc_carnet_Bloqueo" id="doc_carnet_Bloqueo">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_carnet_Bloqueo" value="Si">Si</option>
-                                    <option id="doc_carnet_Bloqueo" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="doc_carnet_Inverza" class="form-label">Carnet Inverza</label>
@@ -223,12 +209,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_carnet_Inverza">{{'Carnet de Inverza'}}</label>
-                                <select class="form-select mb-3" name="doc_carnet_Inverza" id="doc_carnet_Inverza">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_carnet_Inverza" value="Si">Si</option>
-                                    <option id="doc_carnet_Inverza" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="doc_cedula" class="form-label">Cedula Actualizada</label>
@@ -249,12 +230,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_cedula">{{'Cedula'}}</label>
-                                <select class="form-select mb-3" name="doc_cedula" id="doc_cedula">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_cedula" value="Si">Si</option>
-                                    <option id="doc_cedula" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -278,12 +254,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_contrato">{{'Contrato'}}</label>
-                                <select class="form-select mb-3" name="doc_contrato" id="doc_contrato">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_contrato" value="Si">Si</option>
-                                    <option id="doc_contrato" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="doc_colilla_Inss" class="form-label">Colilla del INSS</label>
@@ -305,12 +276,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_colilla_Inss">{{'Colilla de INSS'}}</label>
-                                <select class="form-select mb-3" name="doc_colilla_Inss" id="doc_colilla_Inss">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_colilla_Inss" value="Si">Si</option>
-                                    <option id="doc_colilla_Inss" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="doc_hoja_Ingreso" class="form-label">Hoja de Ingreso</label>
@@ -332,12 +298,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_hoja_Ingreso">{{'Hoja de Ingreso'}}</label>
-                                <select class="form-select mb-3" name="doc_hoja_Ingreso" id="doc_hoja_Ingreso">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_hoja_Ingreso" value="Si">Si</option>
-                                    <option id="doc_hoja_Ingreso" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -360,12 +321,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_hoja_EPP">{{'Hoja EPP'}}</label>
-                                <select class="form-select mb-3" name="doc_hoja_EPP" id="doc_hoja_EPP">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_hoja_EPP" value="Si">Si</option>
-                                    <option id="doc_hoja_EPP" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="doc_examen_General" class="form-label">Examen General</label>
@@ -387,12 +343,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_examen_General">{{'Examen General'}}</label>
-                                <select class="form-select mb-3" name="doc_examen_General" id="doc_examen_General">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_examen_General" value="Si">Si</option>
-                                    <option id="doc_examen_General" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="doc_examen_Plomo" class="form-label">Examen de Plomo</label>
@@ -414,12 +365,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_examen_Plomo">{{'Examen de Plomo'}}</label>
-                                <select class="form-select mb-3" name="doc_examen_Plomo" id="doc_examen_Plomo">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_examen_Plomo" value="Si">Si</option>
-                                    <option id="doc_examen_Plomo" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                         <div class="row align-items-start">
@@ -443,12 +389,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_examen_Glucosa">{{'Examen de Glucosa'}}</label>
-                                <select class="form-select mb-3" name="doc_examen_Glucosa" id="doc_examen_Glucosa">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_examen_Glucosa" value="Si">Si</option>
-                                    <option id="doc_examen_Glucosa" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="doc_licencia_Conducir" class="form-label">Licencia de Conducir</label>
@@ -470,13 +411,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_licencia_Conducir">{{'Licencia de Conducir'}}</label>
-                                <select class="form-select mb-3" name="doc_licencia_Conducir"
-                                    id="doc_licencia_Conducir">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_licencia_Conducir" value="Si">Si</option>
-                                    <option id="doc_licencia_Conducir" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="doc_licencia_Soldador" class="form-label">Licencia de Soldador</label>
@@ -498,13 +433,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_licencia_Soldador">{{'Licencia de Soldador'}}</label>
-                                <select class="form-select mb-3" name="doc_licencia_Soldador"
-                                    id="doc_licencia_Soldador">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_licencia_Soldador" value="Si">Si</option>
-                                    <option id="doc_licencia_Soldador" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -529,14 +458,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_licencia_Electricidad">{{'Licencia de Electricidad'}}</label>
-                                <select class="form-select mb-3" name="doc_licencia_Electricidad"
-                                    id="doc_licencia_Electricidad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_licencia_Electricidad" value="Si">Si</option>
-                                    <option id="doc_licencia_Electricidad" value="No">No
-                                    </option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="doc_certificado_Salud" class="form-label">Certificado de Salud</label>
@@ -558,13 +480,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_certificado_Salud">{{'Certificado de Salud'}}</label>
-                                <select class="form-select mb-3" name="doc_certificado_Salud"
-                                    id="doc_certificado_Salud">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_certificado_Salud" value="Si">Si</option>
-                                    <option id="doc_certificado_Salud" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="doc_record_Policia" class="form-label">Record de Policia</label>
@@ -586,12 +501,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_record_Policia">{{'Record de Policia'}}</label>
-                                <select class="form-select mb-3" name="doc_record_Policia" id="doc_record_Policia">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_record_Policia" value="Si">Si</option>
-                                    <option id="doc_record_Policia" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -615,13 +524,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_tarjeta_Covid">{{'Tarjeta de COVID'}}</label>
-                                <select class="form-select mb-3" name="doc_tarjeta_Covid" id="doc_tarjeta_Covid">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_tarjeta_Covid" value="Si">Si</option>
-                                    <option id="doc_tarjeta_Covid" value="No">No</option>
-                                </select> --}}
                             </div>
+
                             <div class="col">
                                 <label for="doc_tarjeta_Tetano" class="form-label">Tarjeta de Tetano</label>
                                 <div class="col">
@@ -642,21 +546,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="doc_tarjeta_Tetano">{{'Tarjeta de Tetano'}}</label>
-                                <select class="form-select mb-3" name="doc_tarjeta_Tetano" id="doc_tarjeta_Tetano">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_tarjeta_Tetano" value="Si">Si</option>
-                                    <option id="doc_tarjeta_Tetano" value="No">No</option>
-                                </select> --}}
                             </div>
-                            {{-- <div class="col">
-                                <label for="doc_examen_Plomo">{{'Examen de Plomo'}}</label>
-                                <select class="form-select mb-3" name="doc_examen_Plomo" id="doc_examen_Plomo">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="doc_examen_Plomo" value="Si">Si</option>
-                                    <option id="doc_examen_Plomo" value="No">No</option>
-                                </select>
-                            </div> --}}
+
+                            <div class="col">
+                                <div class="col">
+                                    <label for="enlace_Drive">{{'Enlace Drive'}}</label>
+                                    <input type="text" class="form-control mb-3" name="enlace_Drive"
+                                        id="enlace_Drive">
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

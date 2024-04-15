@@ -45,6 +45,7 @@ return new class extends Migration
             $table->string('doc_record_Policia');
             $table->string('doc_tarjeta_Covid');
             $table->string('doc_tarjeta_Tetano');
+            $table->string('enlace_Drive');
             //Charlas CEMEX - Clever
             $table->string('induccion_Cemex');
             //Charlas Bonanza - Henco

@@ -98,6 +98,7 @@ class EmpleadoController extends Controller
         $empleados->doc_record_Policia = $request->get('doc_record_Policia');
         $empleados->doc_tarjeta_Covid = $request->get('doc_tarjeta_Covid');
         $empleados->doc_tarjeta_Tetano = $request->get('doc_tarjeta_Tetano');
+        $empleados->enlace_Drive = $request->get('enlace_Drive');
         
         //Charla CEMEX
         $empleados->induccion_Cemex = $request->get('induccion_Cemex');
@@ -239,6 +240,7 @@ class EmpleadoController extends Controller
         $empleado->doc_record_Policia = $request->get('doc_record_Policia');
         $empleado->doc_tarjeta_Covid = $request->get('doc_tarjeta_Covid');
         $empleado->doc_tarjeta_Tetano = $request->get('doc_tarjeta_Tetano');
+        $empleado->enlace_Drive = $request->get('enlace_Drive');
         
         //Charla CEMEX
         $empleado->induccion_Cemex = $request->get('induccion_Cemex');

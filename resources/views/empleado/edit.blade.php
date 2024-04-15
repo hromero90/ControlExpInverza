@@ -730,16 +730,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_tarjeta_Tetano">{{'Tarjeta de Tetano'}}</label>
-                                    <select class="form-select mb-3" name="doc_tarjeta_Tetano" id="doc_tarjeta_Tetano">
 
-                                        <option id="doc_tarjeta_Tetano" value="{{$empleado->doc_tarjeta_Tetano}}">Si
-                                        </option>
-                                        <option id="doc_tarjeta_Tetano" value="{{$empleado->doc_tarjeta_Tetano}}">No
-                                        </option>
-                                    </select> --}}
+                                    <div class="col">
+                                        <label for="enlace_Drive">{{'Enlace Drive'}}</label>
+                                        <input type="text" class="form-control mb-3" name="enlace_Drive" id="enlace_Drive"
+                                            value="{{$empleado->enlace_Drive}}">
+                                    </div>
+
                                 </div>
-
                             </div>
                         </div>
                     </div>
