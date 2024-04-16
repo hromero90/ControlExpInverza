@@ -74,12 +74,13 @@
             // Deleting The Event
             eventContent: function(info) {
                 var eventTitle = info.event.title;
+                var eventDescription = info.event.description;
                 
                 var eventElement = document.createElement('div');
                 eventElement.innerHTML = '<span style="cursor: pointer;">❌</span> ' + eventTitle;
 
                 eventElement.querySelector('span').addEventListener('click', function() {
-                    if (confirm("Are you sure you want to delete this event?")) {
+                    if (confirm("Esta seguro que lo desea eliminar?")) {
                         var eventId = info.event.id;
                         $.ajax({
                             method: 'get',
@@ -125,7 +126,7 @@
                         console.log('Event moved successfully.');
                     },
                     error: function(error) {
-                        console.error('Error moving event:', error);
+                        console.error('El evento no pudo ser movido:', error);
                     }
                 });
             },

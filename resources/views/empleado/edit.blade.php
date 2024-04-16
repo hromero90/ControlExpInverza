@@ -121,17 +121,7 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="col">
-                                <div class="col">
-                                    <label for="tipo_Contrato">{{'Tipo de Contrato'}}</label>
-                                    <select class="form-select mb-3" name="tipo_Contrato" id="tipo_Contrato">
-                                        <option id="tipo_Contrato" value="{{$empleado->tipo_Contrato}}">Determinado
-                                        </option>
-                                        <option id="tipo_Contrato" value="{{$empleado->tipo_Contrato}}">Indeterminado
-                                        </option>
-                                    </select>
-                                </div>
-                            </div> --}}
+                            
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
@@ -142,13 +132,7 @@
                                         @else
                                             <img src="https://www.drmarket.com.mx/Archivos/Anuncios/sinImagenDefault.jpg" alt="Avatar" width="50" height="50" />
                                         @endif
-                                    {{-- <label for="foto_Perfil">{{'Foto de Perfil'}}</label>
-                                    <br>
-                                    <img class="img-thumbnail" src="{{asset('storage').'/'.$empleado->foto_Perfil}}"
-                                        alt="" width="100" height="100">
-                                    <br>
-                                    <input type="file" class="form-control mb-3" name="foto_Perfil" id="foto_Perfil"
-                                        value=""> --}}
+                                    
                                         
                                             <label class="form-label">Cambiar Foto del empleado</label>
                                             <input class="form-control mb-3" type="file" name="foto_Perfil" id="foto_Perfil" accept="image/png, image/jpeg"/>
@@ -219,14 +203,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_carnet_Bloqueo">{{'Carnet de Bloqueo'}}</label>
-                                    <select class="form-select mb-3" name="doc_carnet_Bloqueo" id="doc_carnet_Bloqueo">
-
-                                        <option id="doc_carnet_Bloqueo" value="{{$empleado->doc_carnet_Bloqueo}}">Si
-                                        </option>
-                                        <option id="doc_carnet_Bloqueo" value="{{$empleado->doc_carnet_Bloqueo}}">No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_carnet_Inverza" class="form-label">Carnet Inverza</label>
@@ -250,14 +227,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_carnet_Inverza">{{'Carnet de Inverza'}}</label>
-                                    <select class="form-select mb-3" name="doc_carnet_Inverza" id="doc_carnet_Inverza">
-
-                                        <option id="doc_carnet_Inverza" value="{{$empleado->doc_carnet_Inverza}}">Si
-                                        </option>
-                                        <option id="doc_carnet_Inverza" value="{{$empleado->doc_carnet_Inverza}}">No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_cedula" class="form-label">Cedula Actualizada</label>
@@ -280,12 +250,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_cedula">{{'Cedula'}}</label>
-                                    <select class="form-select mb-3" name="doc_cedula" id="doc_cedula">
-
-                                        <option id="doc_cedula" value="{{$empleado->doc_cedula}}">Si</option>
-                                        <option id="doc_cedula" value="{{$empleado->doc_cedula}}">No</option>
-                                    </select> --}}
+                                    
                                 </div>
                             </div>
                             <div class="row align-items-center">
@@ -311,12 +276,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_contrato">{{'Contrato'}}</label>
-                                    <select class="form-select mb-3" name="doc_contrato" id="doc_contrato">
-
-                                        <option id="doc_contrato" value="{{$empleado->doc_contrato}}">Si</option>
-                                        <option id="doc_contrato" value="{{$empleado->doc_contrato}}">No</option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_colilla_Inss" class="form-label">Colilla del INSS</label>
@@ -340,14 +300,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_colilla_Inss">{{'Colilla de INSS'}}</label>
-                                    <select class="form-select mb-3" name="doc_colilla_Inss" id="doc_colilla_Inss">
-
-                                        <option id="doc_colilla_Inss" value="{{$empleado->doc_colilla_Inss}}">Si
-                                        </option>
-                                        <option id="doc_colilla_Inss" value="{{$empleado->doc_colilla_Inss}}">No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_hoja_Ingreso" class="form-label">Hoja de Ingreso</label>
@@ -371,14 +324,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_hoja_Ingreso">{{'Hoja de Ingreso'}}</label>
-                                    <select class="form-select mb-3" name="doc_hoja_Ingreso" id="doc_hoja_Ingreso">
-
-                                        <option id="doc_hoja_Ingreso" value="{{$empleado->doc_hoja_Ingreso}}">Si
-                                        </option>
-                                        <option id="doc_hoja_Ingreso" value="{{$empleado->doc_hoja_Ingreso}}">No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                             </div>
                             <div class="row align-items-end">
@@ -404,12 +350,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_hoja_EPP">{{'Hoja EPP'}}</label>
-                                    <select class="form-select mb-3" name="doc_hoja_EPP" id="doc_hoja_EPP">
-
-                                        <option id="doc_hoja_EPP" value="{{$empleado->doc_hoja_EPP}}">Si</option>
-                                        <option id="doc_hoja_EPP" value="{{$empleado->doc_hoja_EPP}}">No</option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_examen_General" class="form-label">Examen General</label>
@@ -433,14 +374,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_examen_General">{{'Examen General'}}</label>
-                                    <select class="form-select mb-3" name="doc_examen_General" id="doc_examen_General">
-
-                                        <option id="doc_examen_General" value="{{$empleado->doc_examen_General}}">Si
-                                        </option>
-                                        <option id="doc_examen_General" value="{{$empleado->doc_examen_General}}">No
-                                        </option>
-                                    </select> --}}
+                                   
                                 </div>
                                 <div class="col">
                                     <label for="doc_examen_Plomo" class="form-label">Examen de Plomo</label>
@@ -464,14 +398,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_examen_Plomo">{{'Examen de Plomo'}}</label>
-                                    <select class="form-select mb-3" name="doc_examen_Plomo" id="doc_examen_Plomo">
-
-                                        <option id="doc_examen_Plomo" value="{{$empleado->doc_examen_Plomo}}">Si
-                                        </option>
-                                        <option id="doc_examen_Plomo" value="{{$empleado->doc_examen_Plomo}}">No
-                                        </option>
-                                    </select> --}}
+                                   
                                 </div>
                             </div>
                             <div class="row align-items-start">
@@ -497,14 +424,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_examen_Glucosa">{{'Examen de Glucosa'}}</label>
-                                    <select class="form-select mb-3" name="doc_examen_Glucosa" id="doc_examen_Glucosa">
-
-                                        <option id="doc_examen_Glucosa" value="{{$empleado->doc_examen_Glucosa}}">Si
-                                        </option>
-                                        <option id="doc_examen_Glucosa" value="{{$empleado->doc_examen_Glucosa}}">No
-                                        </option>
-                                    </select> --}}
+                                   
                                 </div>
                                 <div class="col">
                                     <label for="doc_licencia_Conducir" class="form-label">Licencia de Conducir</label>
@@ -528,17 +448,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_licencia_Conducir">{{'Licencia de Conducir'}}</label>
-                                    <select class="form-select mb-3" name="doc_licencia_Conducir"
-                                        id="doc_licencia_Conducir">
-
-                                        <option id="doc_licencia_Conducir" value="{{$empleado->doc_licencia_Conducir}}">
-                                            Si
-                                        </option>
-                                        <option id="doc_licencia_Conducir" value="{{$empleado->doc_licencia_Conducir}}">
-                                            No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_licencia_Soldador" class="form-label">Licencia de Soldador</label>
@@ -562,17 +472,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_licencia_Soldador">{{'Licencia de Soldador'}}</label>
-                                    <select class="form-select mb-3" name="doc_licencia_Soldador"
-                                        id="doc_licencia_Soldador">
-
-                                        <option id="doc_licencia_Soldador" value="{{$empleado->doc_licencia_Soldador}}">
-                                            Si
-                                        </option>
-                                        <option id="doc_licencia_Soldador" value="{{$empleado->doc_licencia_Soldador}}">
-                                            No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                             </div>
                             <div class="row align-items-center">
@@ -599,16 +499,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_licencia_Electricidad">{{'Licencia de Electricidad'}}</label>
-                                    <select class="form-select mb-3" name="doc_licencia_Electricidad"
-                                        id="doc_licencia_Electricidad">
-
-                                        <option id="doc_licencia_Electricidad"
-                                            value="{{$empleado->doc_licencia_Electricidad}}">Si</option>
-                                        <option id="doc_licencia_Electricidad"
-                                            value="{{$empleado->doc_licencia_Electricidad}}">No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_certificado_Salud" class="form-label">Certificado de Salud</label>
@@ -632,17 +523,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_certificado_Salud">{{'Certificado de Salud'}}</label>
-                                    <select class="form-select mb-3" name="doc_certificado_Salud"
-                                        id="doc_certificado_Salud">
-
-                                        <option id="doc_certificado_Salud" value="{{$empleado->doc_certificado_Salud}}">
-                                            Si
-                                        </option>
-                                        <option id="doc_certificado_Salud" value="{{$empleado->doc_certificado_Salud}}">
-                                            No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_record_Policia" class="form-label">Record de Policia</label>
@@ -666,14 +547,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_record_Policia">{{'Record de Policia'}}</label>
-                                    <select class="form-select mb-3" name="doc_record_Policia" id="doc_record_Policia">
-
-                                        <option id="doc_record_Policia" value="{{$empleado->doc_record_Policia}}">Si
-                                        </option>
-                                        <option id="doc_record_Policia" value="{{$empleado->doc_record_Policia}}">No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                             </div>
                             <div class="row align-items-end">
@@ -699,14 +573,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="doc_tarjeta_Covid">{{'Tarjeta de COVID'}}</label>
-                                    <select class="form-select mb-3" name="doc_tarjeta_Covid" id="doc_tarjeta_Covid">
-
-                                        <option id="doc_tarjeta_Covid" value="{{$empleado->doc_tarjeta_Covid}}">Si
-                                        </option>
-                                        <option id="doc_tarjeta_Covid" value="{{$empleado->doc_tarjeta_Covid}}">No
-                                        </option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="doc_tarjeta_Tetano" class="form-label">Tarjeta de Tetano</label>
@@ -731,12 +598,12 @@
                                         </div>
                                     </div>
 
-                                    <div class="col">
-                                        <label for="enlace_Drive">{{'Enlace Drive'}}</label>
-                                        <input type="text" class="form-control mb-3" name="enlace_Drive" id="enlace_Drive"
-                                            value="{{$empleado->enlace_Drive}}">
-                                    </div>
-
+                                    
+                                </div>
+                                <div class="col">
+                                    <label for="enlace_Drive">{{'Enlace Drive'}}</label>
+                                    <input type="text" class="form-control mb-3" name="enlace_Drive" id="enlace_Drive"
+                                        value="{{$empleado->enlace_Drive}}">
                                 </div>
                             </div>
                         </div>
@@ -778,12 +645,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="induccion_Cemex">{{'Induccion CEMEX'}}</label>
-                                    <select class="form-select mb-3" name="induccion_Cemex" id="induccion_Cemex">
-
-                                        <option id="induccion_Cemex" value="{{$empleado->induccion_Cemex}}">Si</option>
-                                        <option id="induccion_Cemex" value="{{$empleado->induccion_Cemex}}">No</option>
-                                    </select> --}}
+                                    
                                 </div>
                             </div>
                         </div>
@@ -826,15 +688,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="induccion_Ambiente_Bonanza">{{'Induccion Ambiente'}}</label>
-                                    <select class="form-select mb-3" name="induccion_Ambiente_Bonanza"
-                                        id="induccion_Ambiente_Bonanza">
-
-                                        <option id="induccion_Ambiente_Bonanza"
-                                            value="{{$empleado->induccion_Ambiente_Bonanza}}">Si</option>
-                                        <option id="induccion_Ambiente_Bonanza"
-                                            value="{{$empleado->induccion_Ambiente_Bonanza}}">No</option>
-                                    </select> --}}
+                                    
                                 </div>
                                 <div class="col">
                                     <label for="induccion_Seguridad_Bonanza" class="form-label">Inducción
@@ -859,15 +713,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- <label for="induccion_Seguridad_Bonanza">{{'Induccion Seguridad'}}</label>
-                                    <select class="form-select mb-3" name="induccion_Seguridad_Bonanza"
-                                        id="induccion_Seguridad_Bonanza">
-
-                                        <option id="induccion_Seguridad_Bonanza"
-                                            value="{{$empleado->induccion_Seguridad_Bonanza}}">Si</option>
-                                        <option id="induccion_Seguridad_Bonanza"
-                                            value="{{$empleado->induccion_Seguridad_Bonanza}}">No</option>
-                                    </select> --}}
+                                    
                                 </div>
                             </div>
                         </div>
@@ -907,13 +753,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="induccion_General_Limon">{{'Induccion General'}}</label>
-                                <select class="form-select mb-3" name="induccion_General_Limon"
-                                    id="induccion_General_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="induccion_General_Limon" value="Si">Si</option>
-                                    <option id="induccion_General_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="protocolo_Covid_Limon" class="form-label">Protocolo COVID</label>
@@ -935,13 +775,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="protocolo_Covid_Limon">{{'Protocolo COVID'}}</label>
-                                <select class="form-select mb-3" name="protocolo_Covid_Limon"
-                                    id="protocolo_Covid_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="protocolo_Covid_Limon" value="Si">Si</option>
-                                    <option id="protocolo_Covid_Limon" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="prevencion_Incendios_Limon" class="form-label">Prevención de
@@ -966,13 +800,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="prevencion_Incendios_Limon">{{'Prevencion de Incendios'}}</label>
-                                <select class="form-select mb-3" name="prevencion_Incendios_Limon"
-                                    id="prevencion_Incendios_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="prevencion_Incendios_Limon" value="Si">Si</option>
-                                    <option id="prevencion_Incendios_Limon" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -999,13 +827,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="respuesta_Emergencia_Limon">{{'Respuesta Emergencia'}}</label>
-                                <select class="form-select mb-3" name="respuesta_Emergencia_Limon"
-                                    id="respuesta_Emergencia_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="respuesta_Emergencia_Limon" value="Si">Si</option>
-                                    <option id="respuesta_Emergencia_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="sistema_Cinco_Puntos_Limon" class="form-label">Sistema Cinco Puntos</label>
@@ -1029,13 +851,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="sistema_Cinco_Puntos_Limon">{{'Sistema Cinco Puntos'}}</label>
-                                <select class="form-select mb-3" name="sistema_Cinco_Puntos_Limon"
-                                    id="sistema_Cinco_Puntos_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="sistema_Cinco_Puntos_Limon" value="Si">Si</option>
-                                    <option id="sistema_Cinco_Puntos_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="manipulacion_Manual_Carga_Limon" class="form-label">Manipulacion
@@ -1060,14 +876,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manipulacion_Manual_Carga_Limon">{{'Manipulacion Manual
-                                    Carga'}}</label>
-                                <select class="form-select mb-3" name="manipulacion_Manual_Carga_Limon"
-                                    id="manipulacion_Manual_Carga_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manipulacion_Manual_Carga_Limon" value="Si">Si</option>
-                                    <option id="manipulacion_Manual_Carga_Limon" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -1091,13 +900,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Residuos_Limon">{{'Manejo de Residuos'}}</label>
-                                <select class="form-select mb-3" name="manejo_Residuos_Limon"
-                                    id="manejo_Residuos_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Residuos_Limon" value="Si">Si</option>
-                                    <option id="manejo_Residuos_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="hiper_Limon" class="form-label">HIPER</label>
@@ -1119,12 +922,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="hiper_Limon">{{'HIPER'}}</label>
-                                <select class="form-select mb-3" name="hiper_Limon" id="hiper_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="hiper_Limon" value="Si">Si</option>
-                                    <option id="hiper_Limon" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="aps_Limon" class="form-label">APS</label>
@@ -1146,12 +944,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="aps_Limon">{{'APS'}}</label>
-                                <select class="form-select mb-3" name="aps_Limon" id="aps_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="aps_Limon" value="Si">Si</option>
-                                    <option id="aps_Limon" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                         </div>
                     </div>
@@ -1180,14 +973,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="primeros_Auxilios_Teorico_Limon">{{'Primeros Auxilios
-                                    Teorico'}}</label>
-                                <select class="form-select mb-3" name="primeros_Auxilios_Teorico_Limon"
-                                    id="primeros_Auxilios_Teorico_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="primeros_Auxilios_Teorico_Limon" value="Si">Si</option>
-                                    <option id="primeros_Auxilios_Teorico_Limon" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="primeros_Auxilios_Practico_Limon" class="form-label">Primeros Auxilios
@@ -1212,14 +998,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="primeros_Auxilios_Practico_Limon">{{'Primeros Auxilios
-                                    Practico'}}</label>
-                                <select class="form-select mb-3" name="primeros_Auxilios_Practico_Limon"
-                                    id="primeros_Auxilios_Practico_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="primeros_Auxilios_Practico_Limon" value="Si">Si</option>
-                                    <option id="primeros_Auxilios_Practico_Limon" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="manejo_Biodiversidad_Limon" class="form-label">Manejo de
@@ -1244,13 +1023,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Biodiversidad_Limon">{{'Manejo de Biodiversidad'}}</label>
-                                <select class="form-select mb-3" name="manejo_Biodiversidad_Limon"
-                                    id="manejo_Biodiversidad_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Biodiversidad_Limon" value="Si">Si</option>
-                                    <option id="manejo_Biodiversidad_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -1277,14 +1050,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="operacion_Equipos_Livianos_Teorico_Limon">{{'Operacion Equipos Livianos
-                                    Teorico'}}</label>
-                                <select class="form-select mb-3" name="operacion_Equipos_Livianos_Teorico_Limon"
-                                    id="operacion_Equipos_Livianos_Teorico_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="operacion_Equipos_Livianos_Teorico_Limon" value="Si">Si</option>
-                                    <option id="operacion_Equipos_Livianos_Teorico_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="operacion_Equipos_Livianos_Practico_Limon" class="form-label">Operación de
@@ -1309,15 +1075,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="operacion_Equipos_Livianos_Practico_Limon">{{'Operacion Equipos
-                                    Livianos
-                                    Practico'}}</label>
-                                <select class="form-select mb-3" name="operacion_Equipos_Livianos_Practico_Limon"
-                                    id="operacion_Equipos_Livianos_Practico_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="operacion_Equipos_Livianos_Practico_Limon" value="Si">Si</option>
-                                    <option id="operacion_Equipos_Livianos_Practico_Limon" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="manejo_Hidrocarburo_Limon" class="form-label">Manejo de
@@ -1342,13 +1100,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Hidrocarburo_Limon">{{'Manejo Hidrocarburo'}}</label>
-                                <select class="form-select mb-3" name="manejo_Hidrocarburo_Limon"
-                                    id="manejo_Hidrocarburo_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Hidrocarburo_Limon" value="Si">Si</option>
-                                    <option id="manejo_Hidrocarburo_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -1372,13 +1124,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="bloqueo_Etiquetado_Limon">{{'Bloqueo Etiquetado'}}</label>
-                                <select class="form-select mb-3" name="bloqueo_Etiquetado_Limon"
-                                    id="bloqueo_Etiquetado_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="bloqueo_Etiquetado_Limon" value="Si">Si</option>
-                                    <option id="bloqueo_Etiquetado_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="sistema_Gestion_Social_Limon" class="form-label">Sistema de Gestión
@@ -1403,13 +1149,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="sistema_Gestion_Social_Limon">{{'Sistema Gestion Social'}}</label>
-                                <select class="form-select mb-3" name="sistema_Gestion_Social_Limon"
-                                    id="sistema_Gestion_Social_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="sistema_Gestion_Social_Limon" value="Si">Si</option>
-                                    <option id="sistema_Gestion_Social_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="nuestro_Viaje_Seguridad_Limon" class="form-label">Nuestro Viaje
@@ -1434,13 +1174,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="nuestro_Viaje_Seguridad_Limon">{{'Nuestro Viaje Seguridad'}}</label>
-                                <select class="form-select mb-3" name="nuestro_Viaje_Seguridad_Limon"
-                                    id="nuestro_Viaje_Seguridad_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="nuestro_Viaje_Seguridad_Limon" value="Si">Si</option>
-                                    <option id="nuestro_Viaje_Seguridad_Limon" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -1482,13 +1216,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="induccion_General_Libertad">{{'Induccion General'}}</label>
-                                <select class="form-select mb-3" name="induccion_General_Libertad"
-                                    id="induccion_General_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="induccion_General_Libertad" value="Si">Si</option>
-                                    <option id="induccion_General_Libertad" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="protocolo_Covid_Libertad" class="form-label">Protocolo COVID</label>
@@ -1510,13 +1238,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="protocolo_Covid_Libertad">{{'Protocolo COVID'}}</label>
-                                <select class="form-select mb-3" name="protocolo_Covid_Libertad"
-                                    id="protocolo_Covid_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="protocolo_Covid_Libertad" value="Si">Si</option>
-                                    <option id="protocolo_Covid_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="prevencion_Incendios_Libertad" class="form-label">Prevención de
@@ -1541,13 +1263,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="prevencion_Incendios_Libertad">{{'Prevencion de Incendios'}}</label>
-                                <select class="form-select mb-3" name="prevencion_Incendios_Libertad"
-                                    id="prevencion_Incendios_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="prevencion_Incendios_Libertad" value="Si">Si</option>
-                                    <option id="prevencion_Incendios_Libertad" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -1574,13 +1290,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="respuesta_Emergencia_Libertad">{{'Respuesta Emergencia'}}</label>
-                                <select class="form-select mb-3" name="respuesta_Emergencia_Libertad"
-                                    id="respuesta_Emergencia_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="respuesta_Emergencia_Libertad" value="Si">Si</option>
-                                    <option id="respuesta_Emergencia_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="sistema_Cinco_Puntos_Libertad" class="form-label">Sistema Cinco
@@ -1605,13 +1315,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="sistema_Cinco_Puntos_Libertad">{{'Sistema Cinco Puntos'}}</label>
-                                <select class="form-select mb-3" name="sistema_Cinco_Puntos_Libertad"
-                                    id="sistema_Cinco_Puntos_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="sistema_Cinco_Puntos_Libertad" value="Si">Si</option>
-                                    <option id="sistema_Cinco_Puntos_Libertad" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="manipulacion_Manual_Carga_Libertad" class="form-label">Manipulacion
@@ -1636,14 +1340,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manipulacion_Manual_Carga_Libertad">{{'Manipulacion Manual
-                                    Carga'}}</label>
-                                <select class="form-select mb-3" name="manipulacion_Manual_Carga_Libertad"
-                                    id="manipulacion_Manual_Carga_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manipulacion_Manual_Carga_Libertad" value="Si">Si</option>
-                                    <option id="manipulacion_Manual_Carga_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -1667,13 +1364,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Residuos_Libertad">{{'Manejo de Residuos'}}</label>
-                                <select class="form-select mb-3" name="manejo_Residuos_Libertad"
-                                    id="manejo_Residuos_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Residuos_Libertad" value="Si">Si</option>
-                                    <option id="manejo_Residuos_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="hiper_Libertad" class="form-label">HIPER</label>
@@ -1695,12 +1386,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="hiper_Libertad">{{'HIPER'}}</label>
-                                <select class="form-select mb-3" name="hiper_Libertad" id="hiper_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="hiper_Libertad" value="Si">Si</option>
-                                    <option id="hiper_Libertad" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                             <div class="col">
                                 <label for="aps_Libertad" class="form-label">APS</label>
@@ -1722,12 +1408,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="aps_Libertad">{{'APS'}}</label>
-                                <select class="form-select mb-3" name="aps_Libertad" id="aps_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="aps_Libertad" value="Si">Si</option>
-                                    <option id="aps_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                     </div>
@@ -1756,14 +1437,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="primeros_Auxilios_Teorico_Libertad">{{'Primeros Auxilios
-                                    Teorico'}}</label>
-                                <select class="form-select mb-3" name="primeros_Auxilios_Teorico_Libertad"
-                                    id="primeros_Auxilios_Teorico_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="primeros_Auxilios_Teorico_Libertad" value="Si">Si</option>
-                                    <option id="primeros_Auxilios_Teorico_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="primeros_Auxilios_Practico_Libertad" class="form-label">Primeros Auxilios
@@ -1788,14 +1462,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="primeros_Auxilios_Practico_Libertad">{{'Primeros Auxilios
-                                    Practico'}}</label>
-                                <select class="form-select mb-3" name="primeros_Auxilios_Practico_Libertad"
-                                    id="primeros_Auxilios_Practico_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="primeros_Auxilios_Practico_Libertad" value="Si">Si</option>
-                                    <option id="primeros_Auxilios_Practico_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="manejo_Biodiversidad_Libertad" class="form-label">Manejo de
@@ -1820,13 +1487,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Biodiversidad_Libertad">{{'Manejo de Biodiversidad'}}</label>
-                                <select class="form-select mb-3" name="manejo_Biodiversidad_Libertad"
-                                    id="manejo_Biodiversidad_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Biodiversidad_Libertad" value="Si">Si</option>
-                                    <option id="manejo_Biodiversidad_Libertad" value="No">No</option>
-                                </select> --}}
+                               
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -1853,15 +1514,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="operacion_Equipos_Livianos_Teorico_Libertad">{{'Operacion Equipos
-                                    Livianos
-                                    Teorico'}}</label>
-                                <select class="form-select mb-3" name="operacion_Equipos_Livianos_Teorico_Libertad"
-                                    id="operacion_Equipos_Livianos_Teorico_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="operacion_Equipos_Livianos_Teorico_Libertad" value="Si">Si</option>
-                                    <option id="operacion_Equipos_Livianos_Teorico_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="operacion_Equipos_Livianos_Practico_Libertad" class="form-label">Operación
@@ -1886,15 +1539,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="operacion_Equipos_Livianos_Practico_Libertad">{{'Operacion Equipos
-                                    Livianos
-                                    Practico'}}</label>
-                                <select class="form-select mb-3" name="operacion_Equipos_Livianos_Practico_Libertad"
-                                    id="operacion_Equipos_Livianos_Practico_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="operacion_Equipos_Livianos_Practico_Libertad" value="Si">Si</option>
-                                    <option id="operacion_Equipos_Livianos_Practico_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="manejo_Hidrocarburo_Libertad" class="form-label">Manejo de
@@ -1919,13 +1564,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Hidrocarburo_Libertad">{{'Manejo Hidrocarburo'}}</label>
-                                <select class="form-select mb-3" name="manejo_Hidrocarburo_Libertad"
-                                    id="manejo_Hidrocarburo_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Hidrocarburo_Libertad" value="Si">Si</option>
-                                    <option id="manejo_Hidrocarburo_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -1951,13 +1590,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="bloqueo_Etiquetado_Libertad">{{'Bloqueo Etiquetado'}}</label>
-                                <select class="form-select mb-3" name="bloqueo_Etiquetado_Libertad"
-                                    id="bloqueo_Etiquetado_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="bloqueo_Etiquetado_Libertad" value="Si">Si</option>
-                                    <option id="bloqueo_Etiquetado_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="sistema_Gestion_Social_Libertad" class="form-label">Sistema de Gestión
@@ -1982,13 +1615,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="sistema_Gestion_Social_Libertad">{{'Sistema Gestion Social'}}</label>
-                                <select class="form-select mb-3" name="sistema_Gestion_Social_Libertad"
-                                    id="sistema_Gestion_Social_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="sistema_Gestion_Social_Libertad" value="Si">Si</option>
-                                    <option id="sistema_Gestion_Social_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                             <div class="col">
                                 <label for="nuestro_Viaje_Seguridad_Libertad" class="form-label">Nuestro Viaje
@@ -2013,13 +1640,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="nuestro_Viaje_Seguridad_Libertad">{{'Nuestro Viaje Seguridad'}}</label>
-                                <select class="form-select mb-3" name="nuestro_Viaje_Seguridad_Libertad"
-                                    id="nuestro_Viaje_Seguridad_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="nuestro_Viaje_Seguridad_Libertad" value="Si">Si</option>
-                                    <option id="nuestro_Viaje_Seguridad_Libertad" value="No">No</option>
-                                </select> --}}
+                                
                             </div>
                         </div>
                     </div>
