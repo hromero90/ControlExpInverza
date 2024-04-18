@@ -4,6 +4,14 @@
 
 @section('content_header')
 <h4>Editar Registro de {{$empleado->nombres}} {{$empleado->apellidos}}</h4>
+<div class="col">
+    
+        @if($empleado->foto_Perfil)
+            <img src="{{ asset('foto_Perfils/' . $empleado->foto_Perfil) }}" class="img-thumbnail" width="180" height="200" />
+        @else
+            <img src="https://www.drmarket.com.mx/Archivos/Anuncios/sinImagenDefault.jpg" alt="Avatar" width="50" height="50" />
+        @endif
+</div>
 @stop
 
 @section('content')
@@ -1649,7 +1657,7 @@
         </div>
  </div>
     <a href="/empleados" class="btn btn-danger mt-4 mb-3" tabindex="5">Cancelar</a>
-    <button type="submit" class="btn btn-primary mt-4 mb-3" tabindex="4">Guardar</button>
+    <button type="submit" class="btn btn-primary mt-4 mb-3" tabindex="4">Actualizar</button>
 </form>
 @stop
 

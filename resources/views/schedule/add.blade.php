@@ -49,9 +49,11 @@
         <label for="end">{{__('Final')}}</label>
         <input type='date' class='form-control' id='end' name='end' required value='{{ now()->toDateString() }}'>
 
+        <label for='description'>{{ __('Descripcion') }}</label>
+        <input type='text' class='form-control' id='description' name='description'>
 
-        <label for="description">{{__('Descripción')}}</label>
-        <textarea id="description" name="description"></textarea>
+        {{-- <label for="description">{{__('Descripción')}}</label>
+        <textarea id="description" name="description"></textarea> --}}
 
         <label for="color">{{__('Color')}}</label>
         <input type="color" id="color" name="color" />

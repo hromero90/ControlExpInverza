@@ -319,66 +319,36 @@ return [
             'label_color' => 'success',
         ],
         [
-            'text'        => 'Archivos',
+            'text'        => 'Capacitaciones',
             'url'         => 'file',
             'icon'        => 'far fa-fw fa-file',
             'label_color' => 'warning',
         ],
-        ['header' => 'Configuracion de la cuenta'],
-
+        ['header' => 'Drive'],
         [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
-        ],
-        ['header' => 'labels'],
-        [
-            'text'       => 'Importante',
+            'text'       => 'Google Drive',
             'icon_color' => 'red',
-            'url'        => '#',
+            'url'        => 'https://drive.google.com/drive/folders/1hxDSbKPip7ioiiH2d5N8EJmCJ2YjNFTz?usp=sharing',
         ],
         [
-            'text'       => 'Advertencia',
+            'text'       => 'Expedientes de Soldadores',
             'icon_color' => 'yellow',
-            'url'        => '#',
+            'url'        => 'https://drive.google.com/drive/folders/1zfNMwG0lunKSUuHCXwa6vS4ffVZM7c2W?usp=sharing',
         ],
         [
-            'text'       => 'Informacion',
+            'text'       => 'Expedientes de Ayudantes',
+            'icon_color' => 'blue',
+            'url'        => 'https://drive.google.com/drive/folders/1HoQ6BQF7Y4HQ8TyR2DMZqKpCNis17t_I?usp=sharing',
+        ],
+        [
+            'text'       => 'Expedientes de Choferes',
+            'icon_color' => 'green',
+            'url'        => 'https://drive.google.com/drive/folders/1fn_hPBHDvLI9yKsW6b8EueasPBcbOaDq?usp=sharing',
+        ],
+        [
+            'text'       => 'Expedientes de Oficina',
             'icon_color' => 'cyan',
-            'url'        => '#',
+            'url'        => 'https://drive.google.com/drive/folders/17Y7c9xAHC12B1qrJzDlwAfUAvUclAfSo?usp=sharing',
         ],
     ],
 

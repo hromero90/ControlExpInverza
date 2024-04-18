@@ -3,7 +3,7 @@
 @section('title', 'Ingresar nuevo registro')
 
 @section('content_header')
-<h1>Ingresar Nuevo Registro</h1>
+<h1 class=" font-monospace">Ingresar Nuevo Registro</h1>
 @stop
 
 @section('content')
