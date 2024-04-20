@@ -25,7 +25,7 @@
                     <div class="card">
                       <div class="card-body">
                         <h5 class="card-title">Cianuro I</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Seguridad del personal, manejo de residuos, cumplimientos de normativas, gestion de riesgos.</p>
                         <a href="https://drive.google.com/drive/folders/1E6fslgjmGqNkAA8WgKK21N0nvw65xtz8?usp=drive_link" class="btn btn-primary">Resultados</a>
                       </div>
                     </div>
@@ -34,7 +34,7 @@
                     <div class="card">
                       <div class="card-body">
                         <h5 class="card-title">Respuesta ante emergencias</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Proteccion de vidas, minimizar daños ala propiedad, cumplimiento de normativas, preparacion del personal, comunicacion efectiva.</p>
                         <a href="https://drive.google.com/drive/folders/1wjF93lUmOzzddQAvbR-kR6-GxCLoLY7Q?usp=drive_link" class="btn btn-primary">Resultados</a>
                       </div>
                     </div>
@@ -43,7 +43,7 @@
                     <div class="card">
                       <div class="card-body">
                         <h5 class="card-title">Sistema 5 Puntos</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Capacitacion para verificar el entorno de trabajo y las acciones del personal.</p>
                         <a href="https://drive.google.com/drive/folders/1bDg7M4Bvm6Rm-CNBr7FaBXXOC1o6ZEwC?usp=sharing" class="btn btn-primary">Resultados</a>
                       </div>
                     </div>
@@ -52,8 +52,26 @@
                     <div class="card">
                       <div class="card-body">
                         <h5 class="card-title">Sistema Gestion Social</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Políticas, procedimientos y prácticas diseñadas para gestionar y mejorar el impacto social de las operaciones.</p>
                         <a href="https://drive.google.com/drive/folders/1JMkRieVbxI7b9AKeUbMkXV7ZuAj_qEGe?usp=sharing" class="btn btn-primary">Resultados</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Manejo de la Biodiversidad</h5>
+                        <p class="card-text">Es fundamental para minimizar el impacto negativo de sus operaciones en los ecosistemas locales y contribuir a la conservación de la diversidad biológica.</p>
+                        <a href="https://drive.google.com/drive/folders/1ZgIO934iNL0DMmMVG8yIggyJBC-rRyEb?usp=sharing" class="btn btn-primary">Resultados</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Prevencion y extincion de incendios</h5>
+                        <p class="card-text">Es fundamental para minimizar el impacto negativo de sus operaciones en los ecosistemas locales y contribuir a la conservación de la diversidad biológica.</p>
+                        <a href="https://drive.google.com/drive/folders/1ZgIO934iNL0DMmMVG8yIggyJBC-rRyEb?usp=sharing" class="btn btn-primary">Resultados</a>
                       </div>
                     </div>
                   </div>
