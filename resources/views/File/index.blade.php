@@ -71,7 +71,7 @@
                       <div class="card-body">
                         <h5 class="card-title">Prevencion y extincion de incendios</h5>
                         <p class="card-text">Es fundamental para minimizar el impacto negativo de sus operaciones en los ecosistemas locales y contribuir a la conservación de la diversidad biológica.</p>
-                        <a href="https://drive.google.com/drive/folders/1ZgIO934iNL0DMmMVG8yIggyJBC-rRyEb?usp=sharing" class="btn btn-primary">Resultados</a>
+                        <a href="https://drive.google.com/drive/folders/1y08PChT8RPg86RCtXaNAqDeilV4bgqY6?usp=drive_link" class="btn btn-primary">Resultados</a>
                       </div>
                     </div>
                   </div>
