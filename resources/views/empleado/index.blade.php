@@ -37,7 +37,7 @@
                         <!--
                         El helper asset generará la URL completa a la carpeta de avatares, asegurando que las imágenes se carguen correctamente independientemente de la ruta en la que te encuentres dentro de tu aplicación Laravel.
                         -->
-                        <img src="{{ asset('foto_Perfils/' . $empleado->foto_Perfil) }}" alt="Avatar" width="50" height="50" />
+                        <img src="{{ asset('foto_Perfils/' . $empleado->foto_Perfil) }}" alt="Avatar" width="50" height="60" />
                         @else
                         <img src="https://www.drmarket.com.mx/Archivos/Anuncios/sinImagenDefault.jpg" alt="Avatar" width="50" height="50" />
                         @endif
