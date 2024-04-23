@@ -75,6 +75,15 @@
                       </div>
                     </div>
                   </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Induccion General Mina El Limon Limon</h5>
+                        <p class="card-text">Capacitacion General Mina El Limon sobre Politica Seguridad Ocupacional, Medio Ambiente, Biodiversidad, Responsabilidad Social y Gestion de Nuestra Gente.</p>
+                        <a href="https://drive.google.com/drive/folders/1TkHcQDuVPWwqzz8RRRcfDIOuZyWSgBCq?usp=sharing" class="btn btn-primary">Resultados</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
