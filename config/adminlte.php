@@ -350,6 +350,11 @@ return [
             'icon_color' => 'cyan',
             'url'        => 'https://drive.google.com/drive/folders/17Y7c9xAHC12B1qrJzDlwAfUAvUclAfSo?usp=sharing',
         ],
+        [
+            'text'       => 'Colillas INSS',
+            'icon_color' => 'indigo',
+            'url'        => 'https://drive.google.com/drive/folders/17Y7c9xAHC12B1qrJzDlwAfUAvUclAfSo?usp=sharing',
+        ]
     ],
 
     /*
