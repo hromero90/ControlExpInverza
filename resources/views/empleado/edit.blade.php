@@ -170,7 +170,7 @@
                             <div class="col">
                                 <label for="inss">{{'INSS'}}</label>
                                     <input type="text" class="form-control mb-3" name="inss"
-                                        id="inss" value="{{$empleado->expediente}}">
+                                        id="inss" value="{{$empleado->inss}}">
                             </div>
                         </div>
                     </div>
