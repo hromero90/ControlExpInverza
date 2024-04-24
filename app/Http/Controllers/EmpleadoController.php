@@ -78,7 +78,7 @@ class EmpleadoController extends Controller
         $empleados->nomina = $request->get('nomina');
         $empleados->tipo_Contrato = $request->get('tipo_Contrato');
         $empleados->estado = $request->get('estado');
-        $empleados->expediente = $request->get('expediente');
+        $empleados->inss = $request->get('inss');
 
         //Documentos del Empleado
         $empleados->doc_carnet_Bloqueo = $request->get('doc_carnet_Bloqueo');
@@ -220,7 +220,7 @@ class EmpleadoController extends Controller
         // }
 
         $empleado->estado = $request->get('estado');
-        $empleado->expediente = $request->get('expediente');
+        $empleado->inss = $request->get('inss');
 
         //Documentos del Empleado
         $empleado->doc_carnet_Bloqueo = $request->get('doc_carnet_Bloqueo');

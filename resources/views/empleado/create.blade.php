@@ -145,9 +145,9 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="expediente">{{'Numero de Expediente'}}</label>
-                                    <input type="text" class="form-control mb-3" name="expediente"
-                                        id="expediente">
+                                <label for="inss">{{'INSS'}}</label>
+                                    <input type="text" class="form-control mb-3" name="inss"
+                                        id="inss">
                             </div>
                         </div>
                     </div>

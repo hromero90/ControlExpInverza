@@ -321,7 +321,7 @@ return [
         [
             'text'        => 'Capacitaciones',
             'url'         => 'file',
-            'icon'        => 'far fa-fw fa-file',
+            'icon'        => 'fas fa-chalkboard-teacher',
             'label_color' => 'warning',
         ],
         ['header' => 'Drive'],
@@ -353,7 +353,7 @@ return [
         [
             'text'       => 'Colillas INSS',
             'icon_color' => 'indigo',
-            'url'        => 'https://drive.google.com/drive/folders/17Y7c9xAHC12B1qrJzDlwAfUAvUclAfSo?usp=sharing',
+            'url'        => 'https://drive.google.com/drive/folders/1Zc3T8JpccvJS7I4K3P36WRto3WoIiA0p?usp=sharing',
         ]
     ],
 

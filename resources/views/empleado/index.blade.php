@@ -23,7 +23,7 @@
             <th scope="col">Celular</th>
             <th scope="col">Estado</th>
             <th scope="col">Nomina</th>
-            <th scope="col">No. Expediente</th>
+            <th scope="col">INSS</th>
             <th scope="col">Acciones</th>
         </tr>
     </thead>
@@ -56,7 +56,7 @@
 
             <td>{{$empleado->nomina}}</td>
 
-            <td>{{$empleado->expediente}}</td>
+            <td>{{$empleado->inss}}</td>
 
             <td>
                 <form action="{{ route ('empleados.destroy', $empleado->id) }}" method="POST">
