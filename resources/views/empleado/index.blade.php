@@ -12,7 +12,7 @@
 <a href="empleado/export" class="btn btn-success mr-2">Exportar</a>
 <a href="fullcalender" class="btn btn-warning">Calendario</a>
 
-<table id="empleados" class="table table-striped table-bordered mt-2 shadow-lg" style="width:100%">
+<table id="empleados" class="table table table-hover  table-bordered mt-2 shadow-lg" style="width:100%">
     <thead class="bg-primary text-white">
         <tr>
             <th scope="col">No</th>
