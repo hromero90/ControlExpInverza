@@ -13,7 +13,7 @@
         <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                 aria-expanded="false" aria-controls="collapseOne">
-                Capacitaciones TRITON
+                Capacitaciones Mina Limon
             </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -84,17 +84,35 @@
                       </div>
                     </div>
                   </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Manejo de Residuos</h5>
+                        <p class="card-text">El manejo adecuado de residuos industriales no solo protege el medio ambiente, sino que también puede mejorar la eficiencia operativa y reducir costos a largo plazo.</p>
+                        <a href="https://drive.google.com/drive/folders/1nhGvK4c0DiZSSQUCf9KZUO-hGIF93n4R?usp=sharing" class="btn btn-primary">Resultados</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Bloqueo y Etiquetado</h5>
+                        <p class="card-text">Es un procedimiento crucial de seguridad en la industria para proteger a los trabajadores de la liberación inesperada de energía peligrosa durante actividades de mantenimiento o reparación de maquinaria y equipos.</p>
+                        <a href="https://drive.google.com/drive/folders/1ej3aAf4wEr7XIWjbRkvuRVA5Ki7F9nQT?usp=sharing" class="btn btn-primary">Resultados</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
     </div>
     
-    <!--Capacitaciones CALIBRE-->
+    <!--Capacitaciones DESMINIC-->
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                 aria-expanded="false" aria-controls="collapseTwo">
-                Capacitacion CALIBRE
+                Capacitacion La Libertad
             </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
