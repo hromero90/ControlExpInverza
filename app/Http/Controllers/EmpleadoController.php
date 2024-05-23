@@ -10,8 +10,6 @@ use App\Models\User as ModelsUser;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Facades\Excel;
 
-
-
 class EmpleadoController extends Controller
 
 {

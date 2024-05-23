@@ -592,14 +592,10 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-2" type="date" class="form-control" name="fechaRecibidaICemex">
                                     </div>
                                 </div>
-                                {{-- <label for="induccion_Cemex">{{'Induccion CEMEX'}}</label>
-                                <select class="form-select mb-3" name="induccion_Cemex" id="induccion_Cemex">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="induccion_Cemex" value="Si">Si</option>
-                                    <option id="induccion_Cemex" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                     </div>
@@ -637,15 +633,10 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-4" type="date" class="form-control" name="fechaRecibidaICemex">
                                     </div>
                                 </div>
-                                {{-- <label for="induccion_Ambiente_Bonanza">{{'Induccion Ambiente'}}</label>
-                                <select class="form-select mb-3" name="induccion_Ambiente_Bonanza"
-                                    id="induccion_Ambiente_Bonanza">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="induccion_Ambiente_Bonanza" value="Si">Si</option>
-                                    <option id="induccion_Ambiente_Bonanza" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="induccion_Seguridad_Bonanza" class="form-label">Inducción Seguridad</label>
@@ -665,15 +656,10 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-4" type="date" class="form-control" name="fechaRecibidaICemex">
                                     </div>
                                 </div>
-                                {{-- <label for="induccion_Seguridad_Bonanza">{{'Induccion Seguridad'}}</label>
-                                <select class="form-select mb-3" name="induccion_Seguridad_Bonanza"
-                                    id="induccion_Seguridad_Bonanza">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="induccion_Seguridad_Bonanza" value="Si">Si</option>
-                                    <option id="induccion_Seguridad_Bonanza" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                     </div>
@@ -713,13 +699,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="induccion_General_Limon">{{'Induccion General'}}</label>
-                                <select class="form-select mb-3" name="induccion_General_Limon"
-                                    id="induccion_General_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="induccion_General_Limon" value="Si">Si</option>
-                                    <option id="induccion_General_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="protocolo_Covid_Limon" class="form-label">Protocolo COVID</label>
@@ -741,13 +720,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="protocolo_Covid_Limon">{{'Protocolo COVID'}}</label>
-                                <select class="form-select mb-3" name="protocolo_Covid_Limon"
-                                    id="protocolo_Covid_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="protocolo_Covid_Limon" value="Si">Si</option>
-                                    <option id="protocolo_Covid_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="prevencion_Incendios_Limon" class="form-label">Prevención de
@@ -770,13 +742,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="prevencion_Incendios_Limon">{{'Prevencion de Incendios'}}</label>
-                                <select class="form-select mb-3" name="prevencion_Incendios_Limon"
-                                    id="prevencion_Incendios_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="prevencion_Incendios_Limon" value="Si">Si</option>
-                                    <option id="prevencion_Incendios_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -801,13 +766,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="respuesta_Emergencia_Limon">{{'Respuesta Emergencia'}}</label>
-                                <select class="form-select mb-3" name="respuesta_Emergencia_Limon"
-                                    id="respuesta_Emergencia_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="respuesta_Emergencia_Limon" value="Si">Si</option>
-                                    <option id="respuesta_Emergencia_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="sistema_Cinco_Puntos_Limon" class="form-label">Sistema Cinco Puntos</label>
@@ -829,13 +787,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="sistema_Cinco_Puntos_Limon">{{'Sistema Cinco Puntos'}}</label>
-                                <select class="form-select mb-3" name="sistema_Cinco_Puntos_Limon"
-                                    id="sistema_Cinco_Puntos_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="sistema_Cinco_Puntos_Limon" value="Si">Si</option>
-                                    <option id="sistema_Cinco_Puntos_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="manipulacion_Manual_Carga_Limon" class="form-label">Manipulacion
@@ -858,14 +809,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manipulacion_Manual_Carga_Limon">{{'Manipulacion Manual
-                                    Carga'}}</label>
-                                <select class="form-select mb-3" name="manipulacion_Manual_Carga_Limon"
-                                    id="manipulacion_Manual_Carga_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manipulacion_Manual_Carga_Limon" value="Si">Si</option>
-                                    <option id="manipulacion_Manual_Carga_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -889,13 +832,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Residuos_Limon">{{'Manejo de Residuos'}}</label>
-                                <select class="form-select mb-3" name="manejo_Residuos_Limon"
-                                    id="manejo_Residuos_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Residuos_Limon" value="Si">Si</option>
-                                    <option id="manejo_Residuos_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="hiper_Limon" class="form-label">HIPER</label>
@@ -916,12 +852,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="hiper_Limon">{{'HIPER'}}</label>
-                                <select class="form-select mb-3" name="hiper_Limon" id="hiper_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="hiper_Limon" value="Si">Si</option>
-                                    <option id="hiper_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="aps_Limon" class="form-label">APS</label>
@@ -942,12 +872,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="aps_Limon">{{'APS'}}</label>
-                                <select class="form-select mb-3" name="aps_Limon" id="aps_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="aps_Limon" value="Si">Si</option>
-                                    <option id="aps_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                     </div>
@@ -974,14 +898,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="primeros_Auxilios_Teorico_Limon">{{'Primeros Auxilios
-                                    Teorico'}}</label>
-                                <select class="form-select mb-3" name="primeros_Auxilios_Teorico_Limon"
-                                    id="primeros_Auxilios_Teorico_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="primeros_Auxilios_Teorico_Limon" value="Si">Si</option>
-                                    <option id="primeros_Auxilios_Teorico_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="primeros_Auxilios_Practico_Limon" class="form-label">Primeros Auxilios
@@ -1004,14 +920,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="primeros_Auxilios_Practico_Limon">{{'Primeros Auxilios
-                                    Practico'}}</label>
-                                <select class="form-select mb-3" name="primeros_Auxilios_Practico_Limon"
-                                    id="primeros_Auxilios_Practico_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="primeros_Auxilios_Practico_Limon" value="Si">Si</option>
-                                    <option id="primeros_Auxilios_Practico_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="manejo_Biodiversidad_Limon" class="form-label">Manejo de
@@ -1034,13 +942,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Biodiversidad_Limon">{{'Manejo de Biodiversidad'}}</label>
-                                <select class="form-select mb-3" name="manejo_Biodiversidad_Limon"
-                                    id="manejo_Biodiversidad_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Biodiversidad_Limon" value="Si">Si</option>
-                                    <option id="manejo_Biodiversidad_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -1065,14 +966,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="operacion_Equipos_Livianos_Teorico_Limon">{{'Operacion Equipos Livianos
-                                    Teorico'}}</label>
-                                <select class="form-select mb-3" name="operacion_Equipos_Livianos_Teorico_Limon"
-                                    id="operacion_Equipos_Livianos_Teorico_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="operacion_Equipos_Livianos_Teorico_Limon" value="Si">Si</option>
-                                    <option id="operacion_Equipos_Livianos_Teorico_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="operacion_Equipos_Livianos_Practico_Limon" class="form-label">Operación de
@@ -1095,15 +988,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="operacion_Equipos_Livianos_Practico_Limon">{{'Operacion Equipos
-                                    Livianos
-                                    Practico'}}</label>
-                                <select class="form-select mb-3" name="operacion_Equipos_Livianos_Practico_Limon"
-                                    id="operacion_Equipos_Livianos_Practico_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="operacion_Equipos_Livianos_Practico_Limon" value="Si">Si</option>
-                                    <option id="operacion_Equipos_Livianos_Practico_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="manejo_Hidrocarburo_Limon" class="form-label">Manejo de
@@ -1126,13 +1010,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Hidrocarburo_Limon">{{'Manejo Hidrocarburo'}}</label>
-                                <select class="form-select mb-3" name="manejo_Hidrocarburo_Limon"
-                                    id="manejo_Hidrocarburo_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Hidrocarburo_Limon" value="Si">Si</option>
-                                    <option id="manejo_Hidrocarburo_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -1156,13 +1033,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="bloqueo_Etiquetado_Limon">{{'Bloqueo Etiquetado'}}</label>
-                                <select class="form-select mb-3" name="bloqueo_Etiquetado_Limon"
-                                    id="bloqueo_Etiquetado_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="bloqueo_Etiquetado_Limon" value="Si">Si</option>
-                                    <option id="bloqueo_Etiquetado_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="sistema_Gestion_Social_Limon" class="form-label">Sistema de Gestión
@@ -1185,13 +1055,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="sistema_Gestion_Social_Limon">{{'Sistema Gestion Social'}}</label>
-                                <select class="form-select mb-3" name="sistema_Gestion_Social_Limon"
-                                    id="sistema_Gestion_Social_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="sistema_Gestion_Social_Limon" value="Si">Si</option>
-                                    <option id="sistema_Gestion_Social_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="nuestro_Viaje_Seguridad_Limon" class="form-label">Nuestro Viaje
@@ -1214,13 +1077,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="nuestro_Viaje_Seguridad_Limon">{{'Nuestro Viaje Seguridad'}}</label>
-                                <select class="form-select mb-3" name="nuestro_Viaje_Seguridad_Limon"
-                                    id="nuestro_Viaje_Seguridad_Limon">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="nuestro_Viaje_Seguridad_Limon" value="Si">Si</option>
-                                    <option id="nuestro_Viaje_Seguridad_Limon" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                     </div>
@@ -1260,13 +1116,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="induccion_General_Libertad">{{'Induccion General'}}</label>
-                                <select class="form-select mb-3" name="induccion_General_Libertad"
-                                    id="induccion_General_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="induccion_General_Libertad" value="Si">Si</option>
-                                    <option id="induccion_General_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="protocolo_Covid_Libertad" class="form-label">Protocolo COVID</label>
@@ -1288,13 +1137,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="protocolo_Covid_Libertad">{{'Protocolo COVID'}}</label>
-                                <select class="form-select mb-3" name="protocolo_Covid_Libertad"
-                                    id="protocolo_Covid_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="protocolo_Covid_Libertad" value="Si">Si</option>
-                                    <option id="protocolo_Covid_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="prevencion_Incendios_Libertad" class="form-label">Prevención de
@@ -1317,13 +1159,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="prevencion_Incendios_Libertad">{{'Prevencion de Incendios'}}</label>
-                                <select class="form-select mb-3" name="prevencion_Incendios_Libertad"
-                                    id="prevencion_Incendios_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="prevencion_Incendios_Libertad" value="Si">Si</option>
-                                    <option id="prevencion_Incendios_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -1348,13 +1183,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="respuesta_Emergencia_Libertad">{{'Respuesta Emergencia'}}</label>
-                                <select class="form-select mb-3" name="respuesta_Emergencia_Libertad"
-                                    id="respuesta_Emergencia_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="respuesta_Emergencia_Libertad" value="Si">Si</option>
-                                    <option id="respuesta_Emergencia_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="sistema_Cinco_Puntos_Libertad" class="form-label">Sistema Cinco
@@ -1377,13 +1205,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="sistema_Cinco_Puntos_Libertad">{{'Sistema Cinco Puntos'}}</label>
-                                <select class="form-select mb-3" name="sistema_Cinco_Puntos_Libertad"
-                                    id="sistema_Cinco_Puntos_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="sistema_Cinco_Puntos_Libertad" value="Si">Si</option>
-                                    <option id="sistema_Cinco_Puntos_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="manipulacion_Manual_Carga_Libertad" class="form-label">Manipulacion
@@ -1406,14 +1227,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manipulacion_Manual_Carga_Libertad">{{'Manipulacion Manual
-                                    Carga'}}</label>
-                                <select class="form-select mb-3" name="manipulacion_Manual_Carga_Libertad"
-                                    id="manipulacion_Manual_Carga_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manipulacion_Manual_Carga_Libertad" value="Si">Si</option>
-                                    <option id="manipulacion_Manual_Carga_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -1437,13 +1250,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Residuos_Libertad">{{'Manejo de Residuos'}}</label>
-                                <select class="form-select mb-3" name="manejo_Residuos_Libertad"
-                                    id="manejo_Residuos_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Residuos_Libertad" value="Si">Si</option>
-                                    <option id="manejo_Residuos_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="hiper_Libertad" class="form-label">HIPER</label>
@@ -1465,12 +1271,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="hiper_Libertad">{{'HIPER'}}</label>
-                                <select class="form-select mb-3" name="hiper_Libertad" id="hiper_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="hiper_Libertad" value="Si">Si</option>
-                                    <option id="hiper_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="aps_Libertad" class="form-label">APS</label>
@@ -1491,12 +1291,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="aps_Libertad">{{'APS'}}</label>
-                                <select class="form-select mb-3" name="aps_Libertad" id="aps_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="aps_Libertad" value="Si">Si</option>
-                                    <option id="aps_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                     </div>
@@ -1523,14 +1317,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="primeros_Auxilios_Teorico_Libertad">{{'Primeros Auxilios
-                                    Teorico'}}</label>
-                                <select class="form-select mb-3" name="primeros_Auxilios_Teorico_Libertad"
-                                    id="primeros_Auxilios_Teorico_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="primeros_Auxilios_Teorico_Libertad" value="Si">Si</option>
-                                    <option id="primeros_Auxilios_Teorico_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="primeros_Auxilios_Practico_Libertad" class="form-label">Primeros Auxilios
@@ -1553,14 +1339,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="primeros_Auxilios_Practico_Libertad">{{'Primeros Auxilios
-                                    Practico'}}</label>
-                                <select class="form-select mb-3" name="primeros_Auxilios_Practico_Libertad"
-                                    id="primeros_Auxilios_Practico_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="primeros_Auxilios_Practico_Libertad" value="Si">Si</option>
-                                    <option id="primeros_Auxilios_Practico_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="manejo_Biodiversidad_Libertad" class="form-label">Manejo de
@@ -1583,13 +1361,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Biodiversidad_Libertad">{{'Manejo de Biodiversidad'}}</label>
-                                <select class="form-select mb-3" name="manejo_Biodiversidad_Libertad"
-                                    id="manejo_Biodiversidad_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Biodiversidad_Libertad" value="Si">Si</option>
-                                    <option id="manejo_Biodiversidad_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-center">
@@ -1614,15 +1385,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="operacion_Equipos_Livianos_Teorico_Libertad">{{'Operacion Equipos
-                                    Livianos
-                                    Teorico'}}</label>
-                                <select class="form-select mb-3" name="operacion_Equipos_Livianos_Teorico_Libertad"
-                                    id="operacion_Equipos_Livianos_Teorico_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="operacion_Equipos_Livianos_Teorico_Libertad" value="Si">Si</option>
-                                    <option id="operacion_Equipos_Livianos_Teorico_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="operacion_Equipos_Livianos_Practico_Libertad" class="form-label">Operación
@@ -1645,15 +1407,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="operacion_Equipos_Livianos_Practico_Libertad">{{'Operacion Equipos
-                                    Livianos
-                                    Practico'}}</label>
-                                <select class="form-select mb-3" name="operacion_Equipos_Livianos_Practico_Libertad"
-                                    id="operacion_Equipos_Livianos_Practico_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="operacion_Equipos_Livianos_Practico_Libertad" value="Si">Si</option>
-                                    <option id="operacion_Equipos_Livianos_Practico_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="manejo_Hidrocarburo_Libertad" class="form-label">Manejo de
@@ -1676,13 +1429,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="manejo_Hidrocarburo_Libertad">{{'Manejo Hidrocarburo'}}</label>
-                                <select class="form-select mb-3" name="manejo_Hidrocarburo_Libertad"
-                                    id="manejo_Hidrocarburo_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="manejo_Hidrocarburo_Libertad" value="Si">Si</option>
-                                    <option id="manejo_Hidrocarburo_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                         <div class="row align-items-end">
@@ -1706,13 +1452,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="bloqueo_Etiquetado_Libertad">{{'Bloqueo Etiquetado'}}</label>
-                                <select class="form-select mb-3" name="bloqueo_Etiquetado_Libertad"
-                                    id="bloqueo_Etiquetado_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="bloqueo_Etiquetado_Libertad" value="Si">Si</option>
-                                    <option id="bloqueo_Etiquetado_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="sistema_Gestion_Social_Libertad" class="form-label">Sistema de Gestión
@@ -1735,13 +1474,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="sistema_Gestion_Social_Libertad">{{'Sistema Gestion Social'}}</label>
-                                <select class="form-select mb-3" name="sistema_Gestion_Social_Libertad"
-                                    id="sistema_Gestion_Social_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="sistema_Gestion_Social_Libertad" value="Si">Si</option>
-                                    <option id="sistema_Gestion_Social_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                             <div class="col">
                                 <label for="nuestro_Viaje_Seguridad_Libertad" class="form-label">Nuestro Viaje
@@ -1764,13 +1496,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <label for="nuestro_Viaje_Seguridad_Libertad">{{'Nuestro Viaje Seguridad'}}</label>
-                                <select class="form-select mb-3" name="nuestro_Viaje_Seguridad_Libertad"
-                                    id="nuestro_Viaje_Seguridad_Libertad">
-                                    <option>Seleccione una opcion</option>
-                                    <option id="nuestro_Viaje_Seguridad_Libertad" value="Si">Si</option>
-                                    <option id="nuestro_Viaje_Seguridad_Libertad" value="No">No</option>
-                                </select> --}}
                             </div>
                         </div>
                     </div>
