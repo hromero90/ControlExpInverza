@@ -746,8 +746,8 @@
                         </div>
                         <div class="row align-items-center">
                             <div class="col">
-                                <label for="respuesta_Emergencia_Limon" class="form-label">Respuesta de
-                                    Emergencia</label>
+                                <label for="respuesta_Emergencia_Limon" class="form-label">Respuesta ante
+                                    Emergencias</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -834,7 +834,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="hiper_Limon" class="form-label">HIPER</label>
+                                <label for="hiper_Limon" class="form-label">IPER</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -854,7 +854,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="aps_Limon" class="form-label">APS</label>
+                                <label for="aps_Limon" class="form-label">ATS</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -922,7 +922,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="manejo_Biodiversidad_Limon" class="form-label">Manejo de
+                                <label for="manejo_Biodiversidad_Limon" class="form-label">Manejo de la
                                     Biodiversidad</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1014,7 +1014,7 @@
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
-                                <label for="bloqueo_Etiquetado_Limon" class="form-label">Bloqueo Etiquetado</label>
+                                <label for="bloqueo_Etiquetado_Limon" class="form-label">Bloqueo y Etiquetado</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -1163,8 +1163,8 @@
                         </div>
                         <div class="row align-items-center">
                             <div class="col">
-                                <label for="respuesta_Emergencia_Libertad" class="form-label">Respuesta de
-                                    Emergencia</label>
+                                <label for="respuesta_Emergencia_Libertad" class="form-label">Respuesta ante
+                                    Emergencias</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -1208,7 +1208,7 @@
                             </div>
                             <div class="col">
                                 <label for="manipulacion_Manual_Carga_Libertad" class="form-label">Manipulacion
-                                    Manual</label>
+                                    Manual de Carga</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -1252,7 +1252,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="hiper_Libertad" class="form-label">HIPER</label>
+                                <label for="hiper_Libertad" class="form-label">IPER</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -1273,7 +1273,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="aps_Libertad" class="form-label">APS</label>
+                                <label for="aps_Libertad" class="form-label">ATS</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -1341,7 +1341,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="manejo_Biodiversidad_Libertad" class="form-label">Manejo de
+                                <label for="manejo_Biodiversidad_Libertad" class="form-label">Manejo de la
                                     Biodiversidad</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1433,7 +1433,7 @@
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
-                                <label for="bloqueo_Etiquetado_Libertad" class="form-label">Bloqueo Etiquetado</label>
+                                <label for="bloqueo_Etiquetado_Libertad" class="form-label">Bloqueo y Etiquetado</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
