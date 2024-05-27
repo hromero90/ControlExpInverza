@@ -102,6 +102,15 @@
                       </div>
                     </div>
                   </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Operacion de Vehiculo Liviano Teorico</h5>
+                        <p class="card-text">Una capacitación para el uso correcto de vehículos livianos suele cubrir varios aspectos importantes para garantizar la seguridad, eficiencia y cumplimiento de las normativas vigentes.</p>
+                        <a href="https://drive.google.com/drive/folders/1t4KgEQRkCzz20fT8hEvBoiEPljWwzJjL?usp=sharing" class="btn btn-primary">Resultados</a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
