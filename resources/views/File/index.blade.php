@@ -116,7 +116,7 @@
         </div>
     </div>
     
-    <!--Capacitaciones DESMINIC-->
+    <!--Capacitaciones HEMCO-->
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
@@ -141,7 +141,16 @@
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
+                      <h5 class="card-title">Cianuro de Sodio</h5>
+                      <p class="card-text">Seguridad del personal, manejo de residuos, cumplimientos de normativas, gestion de riesgos.</p>
+                      <a href="https://drive.google.com/drive/folders/1hCvmD8clPb-jhH6u4c1HdAeIwjBmxkC7?usp=sharing" class="btn btn-primary">Resultados</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Medio Ambiente</h5>
                       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
