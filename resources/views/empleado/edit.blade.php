@@ -167,6 +167,28 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--Campo para el C-Safe-->
+                            <div class="col">
+                                <label for="c_safe" class="form-label">C-Safe</label>
+                                <div class="col">
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c_safe" value="Activo"
+                                                {!! $empleado->c_safe === 'Activo' ? 'checked' : '' !!}>
+                                            <label class="form-check-label" for="gridRadios1">
+                                                Activo
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="c_safe" value="Inactivo"
+                                                {!! $empleado->c_safe === 'Inactivo' ? 'checked' : '' !!}>
+                                            <label class="form-check-label" for="gridRadios2">
+                                                Inactivo
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col">
                                 <label for="inss">{{'INSS'}}</label>
                                     <input type="text" class="form-control mb-3" name="inss"

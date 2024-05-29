@@ -121,7 +121,7 @@
         <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                 aria-expanded="false" aria-controls="collapseTwo">
-                Capacitacion La Libertad
+                Capacitacion Bonanza
             </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -132,9 +132,9 @@
                 <div class="col-sm-6 mb-3 mb-sm-0">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h5 class="card-title">Induccion Seguridad</h5>
+                      <p class="card-text">Capacitacion que aborda una amplia gama de temas relacionados con la prevención de accidentes y la protección de la salud en el entorno laboral.</p>
+                      <a href="https://drive.google.com/drive/folders/1YvmrOPiHKZieVrWgDkgIRYttd3AiOEgi?usp=sharing" class="btn btn-primary">Resultados</a>
                     </div>
                   </div>
                 </div>
