@@ -100,50 +100,89 @@ class EmpleadoController extends Controller
         
         //Charla CEMEX
         $empleados->induccion_Cemex = $request->get('induccion_Cemex');
+        $empleados->fecha_induccion_cemex = $request->get('fecha_induccion_cemex');
 
         //Charla Bonanza
         $empleados->induccion_Ambiente_Bonanza = $request->get('induccion_Ambiente_Bonanza');
+        $empleados->fecha_induccion_cemex = $request->get('fecha_induccion_Ambiente_Bonanza');
         $empleados->induccion_Seguridad_Bonanza = $request->get('induccion_Seguridad_Bonanza');
+        $empleados->fecha_induccion_cemex = $request->get('fecha_induccion_Seguridad_Bonanza');
 
         //Charla Limon
         $empleados->induccion_General_Limon = $request->get('induccion_General_Limon');
+        $empleados->f_induccion_General_Limon = $request->get('f_induccion_General_Limon');
         $empleados->protocolo_Covid_Limon = $request->get('protocolo_Covid_Limon');
+        $empleados->f_protocolo_Covid_Limon = $request->get('f_protocolo_Covid_Limon');
         $empleados->prevencion_Incendios_Limon = $request->get('prevencion_Incendios_Limon');
+        $empleados->f_prevencion_Incendios_Limon = $request->get('f_prevencion_Incendios_Limon');
         $empleados->respuesta_Emergencia_Limon = $request->get('respuesta_Emergencia_Limon');
+        $empleados->f_respuesta_Emergencia_Limon = $request->get('f_respuesta_Emergencia_Limon');
         $empleados->sistema_Cinco_Puntos_Limon = $request->get('sistema_Cinco_Puntos_Limon');
+        $empleados->f_sistema_Cinco_Puntos_Limon = $request->get('f_sistema_Cinco_Puntos_Limon');
         $empleados->manipulacion_Manual_Carga_Limon = $request->get('manipulacion_Manual_Carga_Limon');
+        $empleados->f_manipulacion_Manual_Carga_Limon = $request->get('f_manipulacion_Manual_Carga_Limon');
         $empleados->manejo_Residuos_Limon = $request->get('manejo_Residuos_Limon');
-        $empleados->hiper_Limon = $request->get('hiper_Limon');
-        $empleados->aps_Limon = $request->get('aps_Limon');
+        $empleados->f_manejo_Residuos_Limon = $request->get('f_manejo_Residuos_Limon');
+        $empleados->iper_Limon = $request->get('iper_Limon');
+        $empleados->f_iper_Limon = $request->get('f_iper_Limon');
+        $empleados->ats_Limon = $request->get('ats_Limon');
+        $empleados->f_ats_Limon = $request->get('f_ats_Limon');
         $empleados->primeros_Auxilios_Teorico_Limon = $request->get('primeros_Auxilios_Teorico_Limon');
+        $empleados->f_primeros_Auxilios_Teorico_Limon = $request->get('f_primeros_Auxilios_Teorico_Limon');
         $empleados->primeros_Auxilios_Practico_Limon = $request->get('primeros_Auxilios_Practico_Limon');
+        $empleados->f_primeros_Auxilios_Practico_Limon = $request->get('f_primeros_Auxilios_Practico_Limon');
         $empleados->manejo_Biodiversidad_Limon = $request->get('manejo_Biodiversidad_Limon');
-        $empleados->operacion_Equipos_Livianos_Teorico_Limon = $request->get('operacion_Equipos_Livianos_Teorico_Limon');
-        $empleados->operacion_Equipos_Livianos_Practico_Limon = $request->get('operacion_Equipos_Livianos_Practico_Limon');
+        $empleados->f_manejo_Biodiversidad_Limon = $request->get('f_manejo_Biodiversidad_Limon');
+        $empleados->op_Equipos_Livianos_Teorico_Limon = $request->get('op_Equipos_Livianos_Teorico_Limon');
+        $empleados->f_op_Equipos_Livianos_Teorico_Limon = $request->get('f_op_Equipos_Livianos_Teorico_Limon');
+        $empleados->op_Equipos_Livianos_Practico_Limon = $request->get('op_Equipos_Livianos_Practico_Limon');
+        $empleados->f_op_Equipos_Livianos_Practico_Limon = $request->get('f_op_Equipos_Livianos_Practico_Limon');
         $empleados->manejo_Hidrocarburo_Limon = $request->get('manejo_Hidrocarburo_Limon');
+        $empleados->f_manejo_Hidrocarburo_Limon = $request->get('f_manejo_Hidrocarburo_Limon');
         $empleados->bloqueo_Etiquetado_Limon = $request->get('bloqueo_Etiquetado_Limon');
+        $empleados->f_bloqueo_Etiquetado_Limon = $request->get('f_bloqueo_Etiquetado_Limon');
         $empleados->sistema_Gestion_Social_Limon = $request->get('sistema_Gestion_Social_Limon');
+        $empleados->f_sistema_Gestion_Social_Limon = $request->get('f_sistema_Gestion_Social_Limon');
         $empleados->nuestro_Viaje_Seguridad_Limon = $request->get('nuestro_Viaje_Seguridad_Limon');
+        $empleados->f_nuestro_Viaje_Seguridad_Limon = $request->get('f_nuestro_Viaje_Seguridad_Limon');
 
         //Charla Libertad
         $empleados->induccion_General_Libertad = $request->get('induccion_General_Libertad');
+        $empleados->f_induccion_General_Libertad = $request->get('f_induccion_General_Libertad');
         $empleados->protocolo_Covid_Libertad = $request->get('protocolo_Covid_Libertad');
+        $empleados->f_protocolo_Covid_Libertad = $request->get('f_protocolo_Covid_Libertad');
         $empleados->prevencion_Incendios_Libertad = $request->get('prevencion_Incendios_Libertad');
+        $empleados->f_prevencion_Incendios_Libertad = $request->get('f_prevencion_Incendios_Libertad');
         $empleados->respuesta_Emergencia_Libertad = $request->get('respuesta_Emergencia_Libertad');
+        $empleados->f_respuesta_Emergencia_Libertad = $request->get('f_respuesta_Emergencia_Libertad');
         $empleados->sistema_Cinco_Puntos_Libertad = $request->get('sistema_Cinco_Puntos_Libertad');
-        $empleados->manipulacion_Manual_Carga_Libertad = $request->get('manipulacion_Manual_Carga_Libertad');
+        $empleados->f_sistema_Cinco_Puntos_Libertad = $request->get('f_sistema_Cinco_Puntos_Libertad');
+        $empleados->mani_Manual_Carga_Libertad = $request->get('mani_Manual_Carga_Libertad');
+        $empleados->f_mani_Manual_Carga_Libertad = $request->get('f_mani_Manual_Carga_Libertad');
         $empleados->manejo_Residuos_Libertad = $request->get('manejo_Residuos_Libertad');
-        $empleados->hiper_Libertad = $request->get('hiper_Libertad');
-        $empleados->aps_Libertad = $request->get('aps_Libertad');
-        $empleados->primeros_Auxilios_Teorico_Libertad = $request->get('primeros_Auxilios_Teorico_Libertad');
-        $empleados->primeros_Auxilios_Practico_Libertad = $request->get('primeros_Auxilios_Practico_Libertad');
+        $empleados->f_manejo_Residuos_Libertad = $request->get('f_manejo_Residuos_Libertad');
+        $empleados->iper_Libertad = $request->get('iper_Libertad');
+        $empleados->f_iper_Libertad = $request->get('f_iper_Libertad');
+        $empleados->ats_Libertad = $request->get('ats_Libertad');
+        $empleados->f_ats_Libertad = $request->get('f_ats_Libertad');
+        $empleados->p_Aux_Teorico_Libertad = $request->get('p_Aux_Teorico_Libertad');
+        $empleados->f_p_Aux_Teorico_Libertad = $request->get('f_p_Aux_Teorico_Libertad');
+        $empleados->p_Aux_Practico_Libertad = $request->get('p_Aux_Practico_Libertad');
+        $empleados->f_p_Aux_Practico_Libertad = $request->get('f_p_Aux_Practico_Libertad');
         $empleados->manejo_Biodiversidad_Libertad = $request->get('manejo_Biodiversidad_Libertad');
-        $empleados->operacion_Equipos_Livianos_Teorico_Libertad = $request->get('operacion_Equipos_Livianos_Teorico_Libertad');
-        $empleados->operacion_Equipos_Livianos_Practico_Libertad = $request->get('operacion_Equipos_Livianos_Practico_Libertad');
+        $empleados->f_manejo_Biodiversidad_Libertad = $request->get('f_manejo_Biodiversidad_Libertad');
+        $empleados->op_Eq_Livianos_Teorico_Libertad = $request->get('op_Eq_Livianos_Teorico_Libertad');
+        $empleados->f_op_Eq_Livianos_Teorico_Libertad = $request->get('f_op_Eq_Livianos_Teorico_Libertad');
+        $empleados->op_Eq_Livianos_Practico_Libertad = $request->get('op_Eq_Livianos_Practico_Libertad');
+        $empleados->f_op_Eq_Livianos_Practico_Libertad = $request->get('f_op_Eq_Livianos_Practico_Libertad');
         $empleados->manejo_Hidrocarburo_Libertad = $request->get('manejo_Hidrocarburo_Libertad');
+        $empleados->f_manejo_Hidrocarburo_Libertad = $request->get('f_manejo_Hidrocarburo_Libertad');
         $empleados->bloqueo_Etiquetado_Libertad = $request->get('bloqueo_Etiquetado_Libertad');
+        $empleados->f_bloqueo_Etiquetado_Libertad = $request->get('f_bloqueo_Etiquetado_Libertad');
         $empleados->sistema_Gestion_Social_Libertad = $request->get('sistema_Gestion_Social_Libertad');
+        $empleados->f_sistema_Gestion_Social_Libertad = $request->get('f_sistema_Gestion_Social_Libertad');
         $empleados->nuestro_Viaje_Seguridad_Libertad = $request->get('nuestro_Viaje_Seguridad_Libertad');
+        $empleados->f_nuestro_Viaje_Seguridad_Libertad = $request->get('f_nuestro_Viaje_Seguridad_Libertad');
 
         $empleados->save();
 
@@ -198,6 +237,7 @@ class EmpleadoController extends Controller
 
             // Actualizar el nombre de la imagen en la base de datos
             $empleado->foto_Perfil = $nombrearchivo;
+
         }
 
         //Datos Generales del Empleado

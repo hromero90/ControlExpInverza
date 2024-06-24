@@ -613,7 +613,7 @@
                                             </label>
                                         </div>
                                         <!--Fecha que se recibio la capacitacion-->
-                                        <input class="col-sm-2" type="date" class="form-control" name="fechaRecibidaICemex">
+                                        <input class="col-sm-2" type="date" class="form-control" name="fecha_induccion_cemex">
                                     </div>
                                 </div>
                             </div>
@@ -654,7 +654,7 @@
                                             </label>
                                         </div>
                                         <!--Fecha que se recibio la capacitacion-->
-                                        <input class="col-sm-4" type="date" class="form-control" name="fechaRecibidaICemex">
+                                        <input class="col-sm-4" type="date" class="form-control" name="fecha_induccion_Ambiente_Bonanza">
                                     </div>
                                 </div>
                             </div>
@@ -677,7 +677,7 @@
                                             </label>
                                         </div>
                                         <!--Fecha que se recibio la capacitacion-->
-                                        <input class="col-sm-4" type="date" class="form-control" name="fechaRecibidaICemex">
+                                        <input class="col-sm-4" type="date" class="form-control" name="fecha_induccion_Seguridad_Bonanza">
                                     </div>
                                 </div>
                             </div>
