@@ -581,12 +581,12 @@
                 </div>
             </div>
         </div>
-        <!--Charla CEMEX-->
+        <!--Capacitacion CEMEX-->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree">
-                    Charla CEMEX
+                    Capacitacion CEMEX
                 </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -622,12 +622,12 @@
                 </div>
             </div>
         </div>
-        <!--Charla Bonanza-->
+        <!--Capacitaciones Bonanza-->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                     aria-expanded="false" aria-controls="collapseFour">
-                    Charla Bonanza
+                    Capacitaciones Bonanza
                 </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -686,12 +686,12 @@
                 </div>
             </div>
         </div>
-        <!--Charla Limon-->
+        <!--Capacitaciones Triton-->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingFive">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
                     aria-expanded="false" aria-controls="collapseFive">
-                    Charla Limón
+                    Capacitaciones Triton
                 </button>
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
@@ -1103,12 +1103,12 @@
                 </div>
             </div>
         </div>
-        <!--Charla Libertad-->
+        <!--Capacitaciones DESMINIC-->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingSix">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
                     aria-expanded="false" aria-controls="collapseSix">
-                    Charla Libertad
+                    Capacitaciones Desminic
                 </button>
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
