@@ -164,10 +164,24 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <div class="row align-items-end">
+                            <!--INSS-->
                             <div class="col">
-                                <label for="inss">{{'INSS'}}</label>
-                                    <input type="text" class="form-control mb-3" name="inss"
-                                        id="inss">
+                                <div class="col">
+                                    <label for="inss">{{'INSS'}}</label>
+                                    <input type="text" class="form-control mb-3" name="inss" id="inss">
+                                </div>
+                            </div>
+                            <div class="col">
+                                
+                            </div>
+                            <div class="col">
+                              
+                            </div>
+                            <div class="col">
+                                
                             </div>
                         </div>
                     </div>
@@ -248,6 +262,8 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_doc_cedula">
                                     </div>
                                 </div>
                                 
@@ -256,7 +272,7 @@
                         <div class="row align-items-center">
                             <!--Manejar con fechas el incio y el final del contrato-->
                             <div class="col">
-                                <label for="doc_contrato" class="form-label">Contrato</label>
+                                <label for="doc_contrato" class="form-label mt-3">Contrato</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -277,7 +293,7 @@
                                 
                             </div>
                             <div class="col">
-                                <label for="doc_colilla_Inss" class="form-label">Colilla del INSS</label>
+                                <label for="doc_colilla_Inss" class="form-label mt-3">Colilla del INSS</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -294,12 +310,14 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_doc_colilla_Inss">
                                     </div>
                                 </div>
                                 
                             </div>
                             <div class="col">
-                                <label for="doc_hoja_Ingreso" class="form-label">Hoja de Ingreso</label>
+                                <label for="doc_hoja_Ingreso" class="form-label mt-3">Hoja de Ingreso</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -323,7 +341,7 @@
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
-                                <label for="doc_hoja_EPP" class="form-label">Hoja EPP</label>
+                                <label for="doc_hoja_EPP" class="form-label mt-3">Hoja EPP</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -339,12 +357,14 @@
                                                 No
                                             </label>
                                         </div>
+                                         <!--Fecha que se recibio la capacitacion-->
+                                         <input class="col-sm-6" type="date" class="form-control" name="f_doc_hoja_EPP">
                                     </div>
                                 </div>
                                 
                             </div>
                             <div class="col">
-                                <label for="doc_examen_General" class="form-label">Examen General</label>
+                                <label for="doc_examen_General" class="form-label mt-3">Examen General</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -366,7 +386,7 @@
                                 
                             </div>
                             <div class="col">
-                                <label for="doc_examen_Plomo" class="form-label">Examen de Plomo</label>
+                                <label for="doc_examen_Plomo" class="form-label mt-3">Examen de Plomo</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -390,7 +410,7 @@
                         </div>
                         <div class="row align-items-start">
                             <div class="col">
-                                <label for="doc_examen_Glucosa" class="form-label">Examen de Glucosa</label>
+                                <label for="doc_examen_Glucosa" class="form-label mt-3">Examen de Glucosa</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -412,7 +432,7 @@
                                 
                             </div>
                             <div class="col">
-                                <label for="doc_licencia_Conducir" class="form-label">Licencia de Conducir</label>
+                                <label for="doc_licencia_Conducir" class="form-label mt-3">Licencia de Conducir</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -429,12 +449,14 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_doc_licencia_Conducir">
                                     </div>
                                 </div>
                                
                             </div>
                             <div class="col">
-                                <label for="doc_licencia_Soldador" class="form-label">Licencia de Soldador</label>
+                                <label for="doc_licencia_Soldador" class="form-label mt-3">Licencia de Soldador</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -451,6 +473,8 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_doc_licencia_Soldador">
                                     </div>
                                 </div>
                                 
@@ -458,7 +482,7 @@
                         </div>
                         <div class="row align-items-center">
                             <div class="col">
-                                <label for="doc_licencia_Electricidad" class="form-label">Licencia de
+                                <label for="doc_licencia_Electricidad" class="form-label mt-3">Licencia de
                                     Electricista</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -476,12 +500,14 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_doc_licencia_Electricidad">
                                     </div>
                                 </div>
                                 
                             </div>
                             <div class="col">
-                                <label for="doc_certificado_Salud" class="form-label">Certificado de Salud</label>
+                                <label for="doc_certificado_Salud" class="form-label mt-3">Certificado de Salud</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -502,7 +528,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="doc_record_Policia" class="form-label">Record de Policia</label>
+                                <label for="doc_record_Policia" class="form-label mt-3">Record de Policia</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -519,13 +545,15 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_doc_record_Policia">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
-                                <label for="doc_tarjeta_Covid" class="form-label">Tarjeta de COVID</label>
+                                <label for="doc_tarjeta_Covid" class="form-label mt-3">Tarjeta de COVID</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -547,7 +575,7 @@
                             </div>
 
                             <div class="col">
-                                <label for="doc_tarjeta_Tetano" class="form-label">Tarjeta de Tetano</label>
+                                <label for="doc_tarjeta_Tetano" class="form-label mt-3">Tarjeta de Tetano</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -717,6 +745,8 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_induccion_General_Limon">
                                     </div>
                                 </div>
                             </div>
@@ -738,6 +768,8 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_protocolo_Covid_Limon">
                                     </div>
                                 </div>
                             </div>
@@ -760,13 +792,15 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_prevencion_Incendios_Limon">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-center">
                             <div class="col">
-                                <label for="respuesta_Emergencia_Limon" class="form-label">Respuesta ante
+                                <label for="respuesta_Emergencia_Limon" class="form-label mt-3">Respuesta ante
                                     Emergencias</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -784,11 +818,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_respuesta_Emergencia_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="sistema_Cinco_Puntos_Limon" class="form-label">Sistema Cinco Puntos</label>
+                                <label for="sistema_Cinco_Puntos_Limon" class="form-label mt-3">Sistema Cinco Puntos</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -805,11 +841,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_sistema_Cinco_Puntos_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="manipulacion_Manual_Carga_Limon" class="form-label">Manipulacion
+                                <label for="manipulacion_Manual_Carga_Limon" class="form-label mt-3">Manipulacion
                                     Manual de Carga</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -827,13 +865,15 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_manipulacion_Manual_Carga_Limon">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
-                                <label for="manejo_Residuos_Limon" class="form-label">Manejo de Residuos</label>
+                                <label for="manejo_Residuos_Limon" class="form-label mt-3">Manejo de Residuos</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -850,46 +890,52 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_manejo_Residuos_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="hiper_Limon" class="form-label">IPER</label>
+                                <label for="iper_Limon" class="form-label mt-3">IPER</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="hiper_Limon" value="Si"
+                                            <input class="form-check-input" type="radio" name="iper_Limon" value="Si"
                                             >
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="hiper_Limon" value="No">
+                                            <input class="form-check-input" type="radio" name="iper_Limon" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_iper_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="aps_Limon" class="form-label">ATS</label>
+                                <label for="ats_Limon" class="form-label mt-3">ATS</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="aps_Limon" value="Si"
+                                            <input class="form-check-input" type="radio" name="ats_Limon" value="Si"
                                             >
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="aps_Limon" value="No">
+                                            <input class="form-check-input" type="radio" name="ats_Limon" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_ats_Limon">
                                     </div>
                                 </div>
                             </div>
@@ -898,7 +944,7 @@
                     <div class="container">
                         <div class="row align-items-start">
                             <div class="col">
-                                <label for="primeros_Auxilios_Teorico_Limon" class="form-label">Primeros Auxilios
+                                <label for="primeros_Auxilios_Teorico_Limon" class="form-label mt-3">Primeros Auxilios
                                     Teorico</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -916,11 +962,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_primeros_Auxilios_Teorico_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="primeros_Auxilios_Practico_Limon" class="form-label">Primeros Auxilios
+                                <label for="primeros_Auxilios_Practico_Limon" class="form-label mt-3">Primeros Auxilios
                                     Practico</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -938,11 +986,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_primeros_Auxilios_Practico_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="manejo_Biodiversidad_Limon" class="form-label">Manejo de la
+                                <label for="manejo_Biodiversidad_Limon" class="form-label mt-3">Manejo de la
                                     Biodiversidad</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -960,57 +1010,63 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_manejo_Biodiversidad_Limon">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-center">
                             <div class="col">
-                                <label for="operacion_Equipos_Livianos_Teorico_Limon" class="form-label">Operación de
+                                <label for="op_Equipos_Livianos_Teorico_Limon" class="form-label mt-3">Operación de
                                     Equipos Livianos Teorico</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="operacion_Equipos_Livianos_Teorico_Limon" value="Si">
+                                                name="op_Equipos_Livianos_Teorico_Limon" value="Si">
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="operacion_Equipos_Livianos_Teorico_Limon" value="No">
+                                                name="op_Equipos_Livianos_Teorico_Limon" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_op_Equipos_Livianos_Teorico_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="operacion_Equipos_Livianos_Practico_Limon" class="form-label">Operación de
+                                <label for="op_Equipos_Livianos_Practico_Limon" class="form-label mt-3">Operación de
                                     Equipos Livianos Practico</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="operacion_Equipos_Livianos_Practico_Limon" value="Si">
+                                                name="op_Equipos_Livianos_Practico_Limon" value="Si">
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="operacion_Equipos_Livianos_Practico_Limon" value="No">
+                                                name="op_Equipos_Livianos_Practico_Limon" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_op_Equipos_Livianos_Practico_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="manejo_Hidrocarburo_Limon" class="form-label">Manejo de
+                                <label for="manejo_Hidrocarburo_Limon" class="form-label mt-3">Manejo de
                                     Hidrocarburos</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1028,13 +1084,15 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_manejo_Hidrocarburo_Limon">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
-                                <label for="bloqueo_Etiquetado_Limon" class="form-label">Bloqueo y Etiquetado</label>
+                                <label for="bloqueo_Etiquetado_Limon" class="form-label mt-3">Bloqueo y Etiquetado</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -1051,11 +1109,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_bloqueo_Etiquetado_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="sistema_Gestion_Social_Limon" class="form-label">Sistema de Gestión
+                                <label for="sistema_Gestion_Social_Limon" class="form-label mt-3">Sistema de Gestión
                                     Social</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1073,11 +1133,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_sistema_Gestion_Social_Limon">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="nuestro_Viaje_Seguridad_Limon" class="form-label">Nuestro Viaje
+                                <label for="nuestro_Viaje_Seguridad_Limon" class="form-label mt-3">Nuestro Viaje
                                     Seguridad</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1095,6 +1157,8 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_nuestro_Viaje_Seguridad_Limon">
                                     </div>
                                 </div>
                             </div>
@@ -1134,6 +1198,8 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_induccion_General_Libertad">
                                     </div>
                                 </div>
                             </div>
@@ -1155,6 +1221,8 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_protocolo_Covid_Libertad">
                                     </div>
                                 </div>
                             </div>
@@ -1177,13 +1245,15 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_prevencion_Incendios_Libertad">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-center">
                             <div class="col">
-                                <label for="respuesta_Emergencia_Libertad" class="form-label">Respuesta ante
+                                <label for="respuesta_Emergencia_Libertad" class="form-label mt-3">Respuesta ante
                                     Emergencias</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1201,11 +1271,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_respuesta_Emergencia_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="sistema_Cinco_Puntos_Libertad" class="form-label">Sistema Cinco
+                                <label for="sistema_Cinco_Puntos_Libertad" class="form-label mt-3">Sistema Cinco
                                     Puntos</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1223,35 +1295,39 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_sistema_Cinco_Puntos_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="manipulacion_Manual_Carga_Libertad" class="form-label">Manipulacion
+                                <label for="mani_Manual_Carga_Libertad" class="form-label mt-3">Manipulacion
                                     Manual de Carga</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="manipulacion_Manual_Carga_Libertad" value="Si">
+                                                name="mani_Manual_Carga_Libertad" value="Si">
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="manipulacion_Manual_Carga_Libertad" value="No">
+                                                name="mani_Manual_Carga_Libertad" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_mani_Manual_Carga_Libertad">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
-                                <label for="manejo_Residuos_Libertad" class="form-label">Manejo de Residuos</label>
+                                <label for="manejo_Residuos_Libertad" class="form-label mt-3">Manejo de Residuos</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -1268,47 +1344,53 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_manejo_Residuos_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="hiper_Libertad" class="form-label">IPER</label>
+                                <label for="iper_Libertad" class="form-label mt-3">IPER</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="hiper_Libertad"
+                                            <input class="form-check-input" type="radio" name="iper_Libertad"
                                                 value="Si">
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="hiper_Libertad"
+                                            <input class="form-check-input" type="radio" name="iper_Libertad"
                                                 value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_iper_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="aps_Libertad" class="form-label">ATS</label>
+                                <label for="ats_Libertad" class="form-label mt-3">ATS</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="aps_Libertad" value="Si"
+                                            <input class="form-check-input" type="radio" name="ats_Libertad" value="Si"
                                             >
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="aps_Libertad" value="No">
+                                            <input class="form-check-input" type="radio" name="ats_Libertad" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_ats_Libertad">
                                     </div>
                                 </div>
                             </div>
@@ -1317,51 +1399,55 @@
                     <div class="container">
                         <div class="row align-items-start">
                             <div class="col">
-                                <label for="primeros_Auxilios_Teorico_Libertad" class="form-label">Primeros Auxilios
+                                <label for="p_Aux_Teorico_Libertad" class="form-label mt-3">Primeros Auxilios
                                     Teorico</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="primeros_Auxilios_Teorico_Libertad" value="Si">
+                                                name="p_Aux_Teorico_Libertad" value="Si">
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="primeros_Auxilios_Teorico_Libertad" value="No">
+                                                name="p_Aux_Teorico_Libertad" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_p_Aux_Teorico_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="primeros_Auxilios_Practico_Libertad" class="form-label">Primeros Auxilios
+                                <label for="p_Aux_Practico_Libertad" class="form-label mt-3">Primeros Auxilios
                                     Practico</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="primeros_Auxilios_Practico_Libertad" value="Si">
+                                                name="p_Aux_Practico_Libertad" value="Si">
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="primeros_Auxilios_Practico_Libertad" value="No">
+                                                name="p_Aux_Practico_Libertad" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_p_Aux_Practico_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="manejo_Biodiversidad_Libertad" class="form-label">Manejo de la
+                                <label for="manejo_Biodiversidad_Libertad" class="form-label mt-3">Manejo de la
                                     Biodiversidad</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1379,57 +1465,63 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_manejo_Biodiversidad_Libertad">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-center">
                             <div class="col">
-                                <label for="operacion_Equipos_Livianos_Teorico_Libertad" class="form-label">Operación de
+                                <label for="op_Eq_Livianos_Teorico_Libertad" class="form-label mt-3">Operación de
                                     Equipos Livianos Teorico</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="operacion_Equipos_Livianos_Teorico_Libertad" value="Si">
+                                                name="op_Eq_Livianos_Teorico_Libertad" value="Si">
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="operacion_Equipos_Livianos_Teorico_Libertad" value="No">
+                                                name="op_Eq_Livianos_Teorico_Libertad" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_op_Eq_Livianos_Teorico_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="operacion_Equipos_Livianos_Practico_Libertad" class="form-label">Operación
+                                <label for="op_Eq_Livianos_Practico_Libertad" class="form-label mt-3">Operación
                                     de Equipos Livianos Practico</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="operacion_Equipos_Livianos_Practico_Libertad" value="Si">
+                                                name="op_Eq_Livianos_Practico_Libertad" value="Si">
                                             <label class="form-check-label" for="gridRadios1">
                                                 Si
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio"
-                                                name="operacion_Equipos_Livianos_Practico_Libertad" value="No">
+                                                name="op_Eq_Livianos_Practico_Libertad" value="No">
                                             <label class="form-check-label" for="gridRadios2">
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_op_Eq_Livianos_Practico_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="manejo_Hidrocarburo_Libertad" class="form-label">Manejo de
+                                <label for="manejo_Hidrocarburo_Libertad" class="form-label mt-3">Manejo de
                                     Hidrocarburos</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1447,13 +1539,15 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_manejo_Hidrocarburo_Libertad">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row align-items-end">
                             <div class="col">
-                                <label for="bloqueo_Etiquetado_Libertad" class="form-label">Bloqueo y Etiquetado</label>
+                                <label for="bloqueo_Etiquetado_Libertad" class="form-label mt-3">Bloqueo y Etiquetado</label>
                                 <div class="col">
                                     <div class="col-sm-10">
                                         <div class="form-check">
@@ -1470,11 +1564,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_bloqueo_Etiquetado_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="sistema_Gestion_Social_Libertad" class="form-label">Sistema de Gestión
+                                <label for="sistema_Gestion_Social_Libertad" class="form-label mt-3">Sistema de Gestión
                                     Social</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1492,11 +1588,13 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_sistema_Gestion_Social_Libertad">
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
-                                <label for="nuestro_Viaje_Seguridad_Libertad" class="form-label">Nuestro Viaje
+                                <label for="nuestro_Viaje_Seguridad_Libertad" class="form-label mt-3">Nuestro Viaje
                                     Seguridad</label>
                                 <div class="col">
                                     <div class="col-sm-10">
@@ -1514,6 +1612,8 @@
                                                 No
                                             </label>
                                         </div>
+                                        <!--Fecha que se recibio la capacitacion-->
+                                        <input class="col-sm-6" type="date" class="form-control" name="f_nuestro_Viaje_Seguridad_Libertad">
                                     </div>
                                 </div>
                             </div>
