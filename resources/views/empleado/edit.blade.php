@@ -723,7 +723,7 @@
                                             </div>
                                             <!--Fecha que se recibio la capacitacion-->
                                             <input 
-                                            class="col-sm-2" type="date" class="form-control" 
+                                            class="col-sm-4" type="date" class="form-control" 
                                             name="fecha_induccion_cemex" id="fecha_induccion_cemex"
                                             value="{{$empleado->fecha_induccion_Ambiente_Bonanza}}">
                                             </div>
@@ -753,7 +753,7 @@
                                             </div>
                                             <!--Fecha que se recibio la capacitacion-->
                                             <input 
-                                            class="col-sm-2" type="date" class="form-control" 
+                                            class="col-sm-4" type="date" class="form-control" 
                                             name="fecha_induccion_cemex" id="fecha_induccion_cemex"
                                             value="{{$empleado->fecha_induccion_Seguridad_Bonanza}}">
                                             </div>
@@ -949,19 +949,19 @@
                                     
                                 </div>
                                 <div class="col">
-                                    <label for="hiper_Limon" class="form-label">IPER</label>
+                                    <label for="iper_Limon" class="form-label">IPER</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="hiper_Limon" 
-                                                value="Si" {!!$empleado->hiper_Limon === 'Si' ? 'checked' : '' !!}>
+                                                <input class="form-check-input" type="radio" name="iper_Limon" 
+                                                value="Si" {!!$empleado->iper_Limon === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="hiper_Limon" 
-                                                value="No"{!!$empleado->hiper_Limon === 'No' ? 'checked' : '' !!}>
+                                                <input class="form-check-input" type="radio" name="iper_Limon" 
+                                                value="No"{!!$empleado->iper_Limon === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -971,19 +971,19 @@
                                 
                                 </div>
                                 <div class="col">
-                                    <label for="aps_Limon" class="form-label">ATS</label>
+                                    <label for="ats_Limon" class="form-label">ATS</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="aps_Limon" 
-                                                value="Si" {!!$empleado->aps_Limon === 'Si' ? 'checked' : '' !!}>
+                                                <input class="form-check-input" type="radio" name="ats_Limon" 
+                                                value="Si" {!!$empleado->ats_Limon === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="aps_Limon" 
-                                                value="No" {!!$empleado->aps_Limon === 'No' ? 'checked' : '' !!}>
+                                                <input class="form-check-input" type="radio" name="ats_Limon" 
+                                                value="No" {!!$empleado->ats_Limon === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1074,22 +1074,22 @@
                             </div>
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <label for="operacion_Equipos_Livianos_Teorico_Limon" class="form-label">Operación de
+                                    <label for="op_Equipos_Livianos_Teorico_Limon" class="form-label">Operación de
                                         Equipos Livianos Teorico</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="operacion_Equipos_Livianos_Teorico_Limon" 
-                                                    value="Si" {!!$empleado->operacion_Equipos_Livianos_Teorico_Limon === 'Si' ? 'checked' : '' !!}>
+                                                    name="op_Equipos_Livianos_Teorico_Limon" 
+                                                    value="Si" {!!$empleado->op_Equipos_Livianos_Teorico_Limon === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="operacion_Equipos_Livianos_Teorico_Limon" 
-                                                    value="No" {!!$empleado->operacion_Equipos_Livianos_Teorico_Limon === 'No' ? 'checked' : '' !!}>
+                                                    name="op_Equipos_Livianos_Teorico_Limon" 
+                                                    value="No" {!!$empleado->op_Equipos_Livianos_Teorico_Limon === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1099,22 +1099,22 @@
                                     
                                 </div>
                                 <div class="col">
-                                    <label for="operacion_Equipos_Livianos_Practico_Limon" class="form-label">Operación de
+                                    <label for="op_Equipos_Livianos_Practico_Limon" class="form-label">Operación de
                                         Equipos Livianos Practico</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="operacion_Equipos_Livianos_Practico_Limon" 
-                                                    value="Si" {!!$empleado->operacion_Equipos_Livianos_Practico_Limon === 'Si' ? 'checked' : '' !!}>
+                                                    name="op_Equipos_Livianos_Practico_Limon" 
+                                                    value="Si" {!!$empleado->op_Equipos_Livianos_Practico_Limon === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="operacion_Equipos_Livianos_Practico_Limon" 
-                                                    value="No" {!!$empleado->operacion_Equipos_Livianos_Practico_Limon === 'No' ? 'checked' : '' !!}>
+                                                    name="op_Equipos_Livianos_Practico_Limon" 
+                                                    value="No" {!!$empleado->op_Equipos_Livianos_Practico_Limon === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1364,22 +1364,22 @@
                                 
                                 </div>
                                 <div class="col">
-                                    <label for="manipulacion_Manual_Carga_Libertad" class="form-label">Manipulacion
+                                    <label for="mani_Manual_Carga_Libertad" class="form-label">Manipulacion
                                         Manual de Carga</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="manipulacion_Manual_Carga_Libertad" 
-                                                    value="Si" {!!$empleado->manipulacion_Manual_Carga_Libertad === 'Si' ? 'checked' : '' !!}>
+                                                    name="mani_Manual_Carga_Libertad" 
+                                                    value="Si" {!!$empleado->mani_Manual_Carga_Libertad === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="manipulacion_Manual_Carga_Libertad" 
-                                                    value="No" {!!$empleado->manipulacion_Manual_Carga_Libertad === 'No' ? 'checked' : '' !!}>
+                                                    name="mani_Manual_Carga_Libertad" 
+                                                    value="No" {!!$empleado->mani_Manual_Carga_Libertad === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1413,19 +1413,19 @@
                                     
                                 </div>
                                 <div class="col">
-                                    <label for="hiper_Libertad" class="form-label">IPER</label>
+                                    <label for="iper_Libertad" class="form-label">IPER</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="hiper_Libertad"
-                                                    value="Si" {!!$empleado->hiper_Libertad === 'Si' ? 'checked' : '' !!}>
+                                                <input class="form-check-input" type="radio" name="iper_Libertad"
+                                                    value="Si" {!!$empleado->iper_Libertad === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="hiper_Libertad"
-                                                    value="No" {!!$empleado->hiper_Libertad === 'No' ? 'checked' : '' !!}>
+                                                <input class="form-check-input" type="radio" name="iper_Libertad"
+                                                    value="No" {!!$empleado->iper_Libertad === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1435,19 +1435,19 @@
                                 
                                 </div>
                                 <div class="col">
-                                    <label for="aps_Libertad" class="form-label">ATS</label>
+                                    <label for="ats_Libertad" class="form-label">ATS</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="aps_Libertad" 
-                                                value="Si" {!!$empleado->aps_Libertad === 'Si' ? 'checked' : '' !!}>
+                                                <input class="form-check-input" type="radio" name="ats_Libertad" 
+                                                value="Si" {!!$empleado->ats_Libertad === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="aps_Libertad" 
-                                                value="No" {!!$empleado->aps_Libertad === 'No' ? 'checked' : '' !!}>
+                                                <input class="form-check-input" type="radio" name="ats_Libertad" 
+                                                value="No" {!!$empleado->ats_Libertad === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1461,22 +1461,22 @@
                         <div class="container">
                             <div class="row align-items-start">
                                 <div class="col">
-                                    <label for="primeros_Auxilios_Teorico_Libertad" class="form-label">Primeros Auxilios
+                                    <label for="p_Aux_Teorico_Libertad" class="form-label">Primeros Auxilios
                                         Teorico</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="primeros_Auxilios_Teorico_Libertad" 
-                                                    value="Si" {!!$empleado->primeros_Auxilios_Teorico_Libertad === 'Si' ? 'checked' : '' !!}>
+                                                    name="p_Aux_Teorico_Libertad" 
+                                                    value="Si" {!!$empleado->p_Aux_Teorico_Libertad === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="primeros_Auxilios_Teorico_Libertad" 
-                                                    value="No" {!!$empleado->primeros_Auxilios_Teorico_Libertad === 'No' ? 'checked' : '' !!}>
+                                                    name="p_Aux_Teorico_Libertad" 
+                                                    value="No" {!!$empleado->p_Aux_Teorico_Libertad === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1486,22 +1486,22 @@
                                     
                                 </div>
                                 <div class="col">
-                                    <label for="primeros_Auxilios_Practico_Libertad" class="form-label">Primeros Auxilios
+                                    <label for="p_Aux_Practico_Libertad" class="form-label">Primeros Auxilios
                                         Practico</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="primeros_Auxilios_Practico_Libertad" 
-                                                    value="Si" {!!$empleado->primeros_Auxilios_Practico_Libertad === 'Si' ? 'checked' : '' !!}>
+                                                    name="p_Aux_Practico_Libertad" 
+                                                    value="Si" {!!$empleado->p_Aux_Practico_Libertad === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="primeros_Auxilios_Practico_Libertad" 
-                                                    value="No" {!!$empleado->primeros_Auxilios_Practico_Libertad === 'No' ? 'checked' : '' !!}>
+                                                    name="p_Aux_Practico_Libertad" 
+                                                    value="No" {!!$empleado->p_Aux_Practico_Libertad === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1538,22 +1538,22 @@
                             </div>
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <label for="operacion_Equipos_Livianos_Teorico_Libertad" class="form-label">Operación de
+                                    <label for="op_Eq_Livianos_Teorico_Libertad" class="form-label">Operación de
                                         Equipos Livianos Teorico</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="operacion_Equipos_Livianos_Teorico_Libertad" 
-                                                    value="Si" {!!$empleado->operacion_Equipos_Livianos_Teorico_Libertad === 'Si' ? 'checked' : '' !!}>
+                                                    name="op_Eq_Livianos_Teorico_Libertad" 
+                                                    value="Si" {!!$empleado->op_Eq_Livianos_Teorico_Libertad === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="operacion_Equipos_Livianos_Teorico_Libertad" 
-                                                    value="No" {!!$empleado->operacion_Equipos_Livianos_Teorico_Libertad === 'No' ? 'checked' : '' !!}>
+                                                    name="op_Eq_Livianos_Teorico_Libertad" 
+                                                    value="No" {!!$empleado->op_Eq_Livianos_Teorico_Libertad === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
@@ -1563,22 +1563,22 @@
                                     
                                 </div>
                                 <div class="col">
-                                    <label for="operacion_Equipos_Livianos_Practico_Libertad" class="form-label">Operación
+                                    <label for="op_Eq_Livianos_Practico_Libertad" class="form-label">Operación
                                         de Equipos Livianos Practico</label>
                                     <div class="col">
                                         <div class="col-sm-10">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="operacion_Equipos_Livianos_Practico_Libertad" 
-                                                    value="Si" {!!$empleado->operacion_Equipos_Livianos_Practico_Libertad === 'Si' ? 'checked' : '' !!}>
+                                                    name="op_Eq_Livianos_Practico_Libertad" 
+                                                    value="Si" {!!$empleado->op_Eq_Livianos_Practico_Libertad === 'Si' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios1">
                                                     Si
                                                 </label>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio"
-                                                    name="operacion_Equipos_Livianos_Practico_Libertad" 
-                                                    value="No" {!!$empleado->operacion_Equipos_Livianos_Practico_Libertad === 'No' ? 'checked' : '' !!}>
+                                                    name="op_Eq_Livianos_Practico_Libertad" 
+                                                    value="No" {!!$empleado->op_Eq_Livianos_Practico_Libertad === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
