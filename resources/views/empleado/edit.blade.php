@@ -794,6 +794,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                        <input 
+                                        class="col-sm-6" type="date" class="form-control" 
+                                        name="f_induccion_General_Limon" id="f_induccion_General_Limon"
+                                        value="{{$empleado->f_induccion_General_Limon}}">
                                         </div>
                                     </div>
                                     
@@ -816,6 +821,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                             <!--Fecha que se recibio la capacitacion-->
+                                        <input 
+                                        class="col-sm-6" type="date" class="form-control" 
+                                        name="f_protocolo_Covid_Limon" id="f_protocolo_Covid_Limon"
+                                        value="{{$empleado->f_protocolo_Covid_Limon}}">
                                         </div>
                                     </div>
                                 
@@ -841,6 +851,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_prevencion_Incendios_Limon" id="f_prevencion_Incendios_Limon"
+                                            value="{{$empleado->f_prevencion_Incendios_Limon}}">
                                         </div>
                                     </div>
                                 
@@ -868,6 +883,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_respuesta_Emergencia_Limon" id="f_respuesta_Emergencia_Limon"
+                                            value="{{$empleado->f_respuesta_Emergencia_Limon}}">
                                         </div>
                                     </div>
                                     
@@ -891,7 +911,12 @@
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
-                                            </div>
+                                            </div>                                            
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_sistema_Cinco_Puntos_Limon" id="f_sistema_Cinco_Puntos_Limon"
+                                            value="{{$empleado->f_sistema_Cinco_Puntos_Limon}}">
                                         </div>
                                     </div>
                                     
@@ -917,6 +942,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_manipulacion_Manual_Carga_Limon" id="f_manipulacion_Manual_Carga_Limon"
+                                            value="{{$empleado->f_manipulacion_Manual_Carga_Limon}}">
                                         </div>
                                     </div>
                                 
@@ -940,7 +970,12 @@
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
-                                            </div>
+                                            </div>                                            
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_manejo_Residuos_Limon" id="f_manejo_Residuos_Limon"
+                                            value="{{$empleado->f_manejo_Residuos_Limon}}">
                                         </div>
                                     </div>
                                     
@@ -962,7 +997,12 @@
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
-                                            </div>
+                                            </div>                                           
+                                             <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_iper_Limon" id="f_iper_Limon"
+                                            value="{{$empleado->f_iper_Limon}}">
                                         </div>
                                     </div>
                                 
@@ -985,6 +1025,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_ats_Limon" id="f_ats_Limon"
+                                            value="{{$empleado->f_ats_Limon}}">
                                         </div>
                                     </div>
                                 
@@ -1014,6 +1059,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_primeros_Auxilios_Teorico_Limon" id="f_primeros_Auxilios_Teorico_Limon"
+                                            value="{{$empleado->f_primeros_Auxilios_Teorico_Limon}}">
                                         </div>
                                     </div>
                                 
@@ -1037,7 +1087,12 @@
                                                     value="No"  {!!$empleado->primeros_Auxilios_Practico_Limon === 'No' ? 'checked' : '' !!}>
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
-                                                </label>
+                                                </label>                                            
+                                                <!--Fecha que se recibio la capacitacion-->
+                                                <input 
+                                                class="col-sm-6" type="date" class="form-control" 
+                                                name="f_primeros_Auxilios_Practico_Limon" id="f_primeros_Auxilios_Practico_Limon"
+                                                value="{{$empleado->f_primeros_Auxilios_Practico_Limon}}">
                                             </div>
                                         </div>
                                     </div>
@@ -1063,7 +1118,13 @@
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
-                                            </div>
+                                            </div>                                                
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_manejo_Biodiversidad_Limon" id="f_manejo_Biodiversidad_Limon"
+                                            value="{{$empleado->f_manejo_Biodiversidad_Limon}}">
+                                            
                                         </div>
                                     </div>
                                     
@@ -1091,6 +1152,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_op_Equipos_Livianos_Teorico_Limon" id="f_op_Equipos_Livianos_Teorico_Limon"
+                                            value="{{$empleado->f_op_Equipos_Livianos_Teorico_Limon}}">
                                         </div>
                                     </div>
                                     
@@ -1116,6 +1182,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_op_Equipos_Livianos_Practico_Limon" id="f_op_Equipos_Livianos_Practico_Limon"
+                                            value="{{$empleado->f_op_Equipos_Livianos_Practico_Limon}}">
                                         </div>
                                     </div>
                                 
@@ -1141,6 +1212,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_manejo_Hidrocarburo_Limon" id="f_manejo_Hidrocarburo_Limon"
+                                            value="{{$empleado->f_manejo_Hidrocarburo_Limon}}">
                                         </div>
                                     </div>
                                     
@@ -1164,7 +1240,13 @@
                                                 <label class="form-check-label" for="gridRadios2">
                                                     No
                                                 </label>
-                                            </div>
+                                            </div>                                            
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_bloqueo_Etiquetado_Limon" id="f_bloqueo_Etiquetado_Limon"
+                                            value="{{$empleado->f_bloqueo_Etiquetado_Limon}}">
+                                            
                                         </div>
                                     </div>
                                     
@@ -1190,6 +1272,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_sistema_Gestion_Social_Limon" id="f_sistema_Gestion_Social_Limon"
+                                            value="{{$empleado->f_sistema_Gestion_Social_Limon}}">
                                         </div>
                                     </div>
                                     
@@ -1215,6 +1302,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_nuestro_Viaje_Seguridad_Limon" id="f_nuestro_Viaje_Seguridad_Limon"
+                                            value="{{$empleado->f_nuestro_Viaje_Seguridad_Limon}}">
                                         </div>
                                     </div>
                                     
