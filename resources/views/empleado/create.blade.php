@@ -75,17 +75,14 @@
                                         <option selected value="">Seleccione una opción</option>
                                             <?php
                                             $nominas = array(
-                                                "Administracion",
-                                                "Supervisor",
-                                                "Transporte",
-                                                "Mecanico",
-                                                "Mecanico Industrial",
-                                                "Ayudante",
-                                                "Estibadores",
-                                                "Seguridad Fisica",
-                                                "Servicios Multiples",
-                                                "Mina Libertad"
-
+                                                "1- Gerencia y Administracion",
+                                                "2- Construccion",
+                                                "3- Transporte",
+                                                "4- Mecanica Automotriz",
+                                                "5- Mecanica Industrial",
+                                                "6- Ayudantes",
+                                                "7- Estibadores",
+                                                "8- Seguridad Fisica",
                                             );
                                             foreach ($nominas as $nomina) {
                                                 echo "<option value='$nomina'>$nomina</option>";

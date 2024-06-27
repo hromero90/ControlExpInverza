@@ -88,17 +88,14 @@
                                         <option selected value="">Seleccione una opción</option>
                                             <?php
                                             $nominas = [
-                                                "Administracion",
-                                                "Supervisor",
-                                                "Transporte",
-                                                "Mecanico",
-                                                "Mecanico Industrial",
-                                                "Ayudante",
-                                                "Estibadores",
-                                                "Seguridad Fisica",
-                                                "Servicios Multiples",
-                                                "Mina Libertad"
-
+                                               "1- Gerencia y Administracion",
+                                                "2- Construccion",
+                                                "3- Transporte",
+                                                "4- Mecanica Automotriz",
+                                                "5- Mecanica Industrial",
+                                                "6- Ayudantes",
+                                                "7- Estibadores",
+                                                "8- Seguridad Fisica",
                                             ];
                                             ?>
                                             @foreach ($nominas as $nomina) {
@@ -1693,7 +1690,7 @@
                     </div>
                 </div>
             </div>
- </div>
+</div>
     <a href="/empleados" class="btn btn-danger mt-4 mb-3" tabindex="5">Cancelar</a>
     <button type="submit" class="btn btn-primary mt-4 mb-3" tabindex="4">Actualizar</button>
 </form>
