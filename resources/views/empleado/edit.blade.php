@@ -1349,6 +1349,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_induccion_General_Libertad" id="f_induccion_General_Libertad"
+                                            value="{{$empleado->f_induccion_General_Libertad}}">
                                         </div>
                                     </div>
                                 
@@ -1371,6 +1376,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_protocolo_Covid_Libertad" id="f_protocolo_Covid_Libertad"
+                                            value="{{$empleado->f_protocolo_Covid_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1396,6 +1406,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_prevencion_Incendios_Libertad" id="f_prevencion_Incendios_Libertad"
+                                            value="{{$empleado->f_prevencion_Incendios_Libertad}}">
                                         </div>
                                     </div>
                                 
@@ -1423,6 +1438,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_respuesta_Emergencia_Libertad" id="f_respuesta_Emergencia_Libertad"
+                                            value="{{$empleado->f_respuesta_Emergencia_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1448,6 +1468,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_sistema_Cinco_Puntos_Libertad" id="f_sistema_Cinco_Puntos_Libertad"
+                                            value="{{$empleado->f_sistema_Cinco_Puntos_Libertad}}">
                                         </div>
                                     </div>
                                 
@@ -1473,6 +1498,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_mani_Manual_Carga_Libertad" id="f_mani_Manual_Carga_Libertad"
+                                            value="{{$empleado->f_mani_Manual_Carga_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1497,6 +1527,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_manejo_Residuos_Libertad" id="f_manejo_Residuos_Libertad"
+                                            value="{{$empleado->f_manejo_Residuos_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1519,6 +1554,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_iper_Libertad" id="f_iper_Libertad"
+                                            value="{{$empleado->f_iper_Libertad}}">
                                         </div>
                                     </div>
                                 
@@ -1541,6 +1581,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_ats_Libertad" id="f_ats_Libertad"
+                                            value="{{$empleado->f_ats_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1570,6 +1615,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_p_Aux_Teorico_Libertad" id="f_p_Aux_Teorico_Libertad"
+                                            value="{{$empleado->f_p_Aux_Teorico_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1595,6 +1645,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_p_Aux_Practico_Libertad" id="f_p_Aux_Practico_Libertad"
+                                            value="{{$empleado->f_p_Aux_Practico_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1620,6 +1675,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_manejo_Biodiversidad_Libertad" id="f_manejo_Biodiversidad_Libertad"
+                                            value="{{$empleado->f_manejo_Biodiversidad_Libertad}}">
                                         </div>
                                     </div>
                                 
@@ -1647,6 +1707,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_op_Eq_Livianos_Teorico_Libertad" id="f_op_Eq_Livianos_Teorico_Libertad"
+                                            value="{{$empleado->f_op_Eq_Livianos_Teorico_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1672,6 +1737,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_op_Eq_Livianos_Practico_Libertad" id="f_op_Eq_Livianos_Practico_Libertad"
+                                            value="{{$empleado->f_op_Eq_Livianos_Practico_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1697,6 +1767,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_manejo_Hidrocarburo_Libertad" id="f_manejo_Hidrocarburo_Libertad"
+                                            value="{{$empleado->f_manejo_Hidrocarburo_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1723,6 +1798,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_bloqueo_Etiquetado_Libertad" id="f_bloqueo_Etiquetado_Libertad"
+                                            value="{{$empleado->f_bloqueo_Etiquetado_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1748,6 +1828,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_sistema_Gestion_Social_Libertad" id="f_sistema_Gestion_Social_Libertad"
+                                            value="{{$empleado->f_sistema_Gestion_Social_Libertad}}">
                                         </div>
                                     </div>
                                     
@@ -1773,6 +1858,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_nuestro_Viaje_Seguridad_Libertad" id="f_nuestro_Viaje_Seguridad_Libertad"
+                                            value="{{$empleado->f_nuestro_Viaje_Seguridad_Libertad}}">
                                         </div>
                                     </div>
                                     
