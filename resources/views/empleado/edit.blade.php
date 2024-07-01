@@ -88,7 +88,7 @@
                                         <option selected value="">Seleccione una opción</option>
                                             <?php
                                             $nominas = [
-                                               "1- Gerencia y Administracion",
+                                                "1- Gerencia y Administracion",
                                                 "2- Construccion",
                                                 "3- Transporte",
                                                 "4- Mecanica Automotriz",
@@ -275,6 +275,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                        <input 
+                                        class="col-sm-6" type="date" class="form-control" 
+                                        name="f_doc_cedula" id="f_doc_cedula"
+                                        value="{{$empleado->f_doc_cedula}}">
                                         </div>
                                     </div>
                                     
@@ -325,6 +330,11 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <!--Fecha que se recibio la capacitacion-->
+                                        <input 
+                                        class="col-sm-6" type="date" class="form-control" 
+                                        name="f_doc_colilla_Inss" id="f_doc_colilla_Inss"
+                                        value="{{$empleado->f_doc_colilla_Inss}}">
                                         </div>
                                     </div>
                                     
@@ -375,6 +385,10 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_doc_hoja_EPP" id="f_doc_hoja_EPP"
+                                            value="{{$empleado->f_doc_hoja_EPP}}">
                                         </div>
                                     </div>
                                     
@@ -473,6 +487,10 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_doc_licencia_Conducir" id="f_doc_licencia_Conducir"
+                                            value="{{$empleado->f_doc_licencia_Conducir}}">
                                         </div>
                                     </div>
                                     
@@ -497,6 +515,10 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_doc_licencia_Soldador" id="f_doc_licencia_Soldador"
+                                            value="{{$empleado->f_doc_licencia_Soldador}}">
                                         </div>
                                     </div>
                                     
@@ -524,6 +546,10 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_doc_licencia_Electricidad" id="f_doc_licencia_Electricidad"
+                                            value="{{$empleado->f_doc_licencia_Electricidad}}">
                                         </div>
                                     </div>
                                     
@@ -572,6 +598,10 @@
                                                     No
                                                 </label>
                                             </div>
+                                            <input 
+                                            class="col-sm-6" type="date" class="form-control" 
+                                            name="f_doc_record_Policia" id="f_doc_record_Policia"
+                                            value="{{$empleado->f_doc_record_Policia}}">
                                         </div>
                                     </div>
                                     
@@ -721,7 +751,7 @@
                                             <!--Fecha que se recibio la capacitacion-->
                                             <input 
                                             class="col-sm-4" type="date" class="form-control" 
-                                            name="fecha_induccion_cemex" id="fecha_induccion_cemex"
+                                            name="fecha_induccion_Ambiente_Bonanza" id="fecha_induccion_Ambiente_Bonanza"
                                             value="{{$empleado->fecha_induccion_Ambiente_Bonanza}}">
                                             </div>
                                     </div>
@@ -751,7 +781,7 @@
                                             <!--Fecha que se recibio la capacitacion-->
                                             <input 
                                             class="col-sm-4" type="date" class="form-control" 
-                                            name="fecha_induccion_cemex" id="fecha_induccion_cemex"
+                                            name="fecha_induccion_Seguridad_Bonanza" id="fecha_induccion_Seguridad_Bonanza"
                                             value="{{$empleado->fecha_induccion_Seguridad_Bonanza}}">
                                             </div>
                                         </div>
